@@ -1,4 +1,4 @@
-Country or Area,Element,Year,Unit,Value,Value Footnotes
+Country,Element,Year,Unit,Value,Footnotes
 China,Stocks,2018,Head,164079093,A
 Australia,Stocks,2018,Head,70067316,
 India,Stocks,2018,Head,61666343,Im
@@ -66,7 +66,7 @@ Portugal,Stocks,2018,Head,2208000,
 United Arab Emirates,Stocks,2018,Head,2147665,
 Uganda,Stocks,2018,Head,2094426,Im
 Caribbean,Stocks,2018,Head,2021330,A
-C�te d'Ivoire,Stocks,2018,Head,1867482,Im
+Côte d'Ivoire,Stocks,2018,Head,1867482,Im
 Albania,Stocks,2018,Head,1863837,
 Namibia,Stocks,2018,Head,1717774,Im
 Serbia,Stocks,2018,Head,1711677,
@@ -189,7 +189,7 @@ New Caledonia,Stocks,2018,Head,2270,Im
 Guadeloupe,Stocks,2018,Head,1340,Im
 Jamaica,Stocks,2018,Head,1336,Im
 French Guiana,Stocks,2018,Head,1089,
-Réunion,Stocks,2018,Head,897,Im
+RÃ©union,Stocks,2018,Head,897,Im
 "Saint Helena, Ascension and Tristan da Cunha",Stocks,2018,Head,794,Im
 French Polynesia,Stocks,2018,Head,442,Im
 Polynesia,Stocks,2018,Head,442,A
