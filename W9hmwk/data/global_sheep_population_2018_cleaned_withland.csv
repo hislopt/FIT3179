@@ -1,0 +1,193 @@
+Country,Element,Year,Unit,Value,Land SQM Text,Land sqkm
+Liechtenstein,Stocks,2018,Head,3989,160 sq km,160.00
+Saint Kitts and Nevis,Stocks,2018,Head,5944,260 sq km,260.00
+Malta,Stocks,2018,Head,13169,320 sq km,320.00
+Grenada,Stocks,2018,Head,13658,340 sq km,340.00
+United States Virgin Islands,Stocks,2018,Head,3264,346.4 km,346.40
+Saint Vincent and the Grenadines,Stocks,2018,Head,8430,390 sq km,390.00
+Barbados,Stocks,2018,Head,13802,430 sq km,430.00
+Antigua and Barbuda,Stocks,2018,Head,13861,440 sq km,440.00
+Saint Lucia,Stocks,2018,Head,9064,610 sq km,610.00
+Bahrain,Stocks,2018,Head,38650,710 sq km,710.00
+Dominica,Stocks,2018,Head,7990,750 sq km,750.00
+Sao Tome and Principe,Stocks,2018,Head,3436,960 sq km,960.00
+Hong Kong,Stocks,2018,Head,21,"1,106 km",1106.00
+Martinique,Stocks,2018,Head,12626,"1,128 km",1128.00
+Faroe Islands,Stocks,2018,Head,70616,"1,400 sq km",1400.00
+Guadeloupe,Stocks,2018,Head,1340,"1,628 km",1628.00
+Comoros,Stocks,2018,Head,24815,"1,860 sq km",1860.00
+Mauritius,Stocks,2018,Head,3806,"2,030 sq km",2030.00
+Réunion,Stocks,2018,Head,897,"2,512 km",2512.00
+Luxembourg,Stocks,2018,Head,8654,"2,590 sq km",2590.00
+French Polynesia,Stocks,2018,Head,442,"3,660 sq km",3660.00
+Cabo Verde,Stocks,2018,Head,12620,"4,033 km",4033.00
+Trinidad and Tobago,Stocks,2018,Head,14152,"5,130 sq km",5130.00
+Brunei Darussalam,Stocks,2018,Head,4622,"5,765 km",5765.00
+Palestine,Stocks,2018,Head,753677,"6,220 km",6220.00
+Puerto Rico,Stocks,2018,Head,6998,"8,870 sq km",8870.00
+Cyprus,Stocks,2018,Head,330229,"9,240 sq km",9240.00
+Lebanon,Stocks,2018,Head,459829,"10,230 sq km",10230.00
+Jamaica,Stocks,2018,Head,1336,"10,830 sq km",10830.00
+Qatar,Stocks,2018,Head,272485,"11,590 sq km",11590.00
+Kuwait,Stocks,2018,Head,684231,"17,820 sq km",17820.00
+Fiji,Stocks,2018,Head,27697,"18,270 sq km",18270.00
+New Caledonia,Stocks,2018,Head,2270,"18,280 sq km",18280.00
+Slovenia,Stocks,2018,Head,108761,"20,140 sq km",20140.00
+El Salvador,Stocks,2018,Head,5319,"20,720 sq km",20720.00
+Israel,Stocks,2018,Head,477340,"21,640 sq km",21640.00
+Belize,Stocks,2018,Head,15751,"22,810 sq km",22810.00
+Djibouti,Stocks,2018,Head,469095,"23,180 sq km",23180.00
+Rwanda,Stocks,2018,Head,601836,"24,670 sq km",24670.00
+Burundi,Stocks,2018,Head,548608,"25,680 sq km",25680.00
+Albania,Stocks,2018,Head,1863837,"27,400 sq km",27400.00
+Haiti,Stocks,2018,Head,157912,"27,560 sq km",27560.00
+Equatorial Guinea,Stocks,2018,Head,40617,"28,050 sq km",28050.00
+Guinea-Bissau,Stocks,2018,Head,505195,"28,120 sq km",28120.00
+Armenia,Stocks,2018,Head,637978,"28,200 sq km",28200.00
+Belgium,Stocks,2018,Head,86672,"30,280 sq km",30280.00
+Lesotho,Stocks,2018,Head,1610010,"30,350 sq km",30350.00
+Netherlands,Stocks,2018,Head,956943,"33,760 sq km",33760.00
+Bhutan,Stocks,2018,Head,9461,"38,394 sq km",38394.00
+Switzerland,Stocks,2018,Head,343470,"40,000 sq km",40000.00
+Estonia,Stocks,2018,Head,73100,"42,390 sq km",42390.00
+Denmark,Stocks,2018,Head,143797,"42,430 sq km",42430.00
+Slovakia,Stocks,2018,Head,365344,"48,100 sq km",48100.00
+Dominican Republic,Stocks,2018,Head,251481,"48,320 sq km",48320.00
+Costa Rica,Stocks,2018,Head,2819,"51,060 sq km",51060.00
+Bosnia and Herzegovina,Stocks,2018,Head,1012546,"51,200 sq km",51200.00
+Croatia,Stocks,2018,Head,636294,"53,910 sq km",53910.00
+Togo,Stocks,2018,Head,1552087,"54,390 sq km",54390.00
+Latvia,Stocks,2018,Head,112208,"62,250 sq km",62250.00
+Lithuania,Stocks,2018,Head,169685,"62,680 sq km",62680.00
+Sri Lanka,Stocks,2018,Head,11382,"64,630 sq km",64630.00
+Ireland,Stocks,2018,Head,5109300,"68,890 sq km",68890.00
+Georgia,Stocks,2018,Head,855900,"69,490 sq km",69490.00
+Sierra Leone,Stocks,2018,Head,871388,"71,620 sq km",71620.00
+Austria,Stocks,2018,Head,401480,"82,450 sq km",82450.00
+Azerbaijan,Stocks,2018,Head,7681674,"82,629 sq km",82629.00
+United Arab Emirates,Stocks,2018,Head,2147665,"83,600 sq km",83600.00
+Jordan,Stocks,2018,Head,3022882,"88,240 sq km",88240.00
+Hungary,Stocks,2018,Head,1146000,"89,610 sq km",89610.00
+Portugal,Stocks,2018,Head,2208000,"91,500 sq km",91500.00
+Malawi,Stocks,2018,Head,317899,"94,080 sq km",94080.00
+Liberia,Stocks,2018,Head,309992,"96,320 sq km",96320.00
+South Korea,Stocks,2018,Head,160789,"100,210 km",100210.00
+Iceland,Stocks,2018,Head,432023,"100,250 sq km",100250.00
+Eritrea,Stocks,2018,Head,2432034,"101,000 sq km",101000.00
+Guatemala,Stocks,2018,Head,595653,"107,160 sq km",107160.00
+Bulgaria,Stocks,2018,Head,1316784,"108,610 sq km",108610.00
+Cuba,Stocks,2018,Head,1471800,"109,820 sq km",109820.00
+Benin,Stocks,2018,Head,954000,"110,620 sq km",110620.00
+Honduras,Stocks,2018,Head,16614,"111,890 sq km",111890.00
+Nicaragua,Stocks,2018,Head,6768,"119,990 sq km",119990.00
+Greece,Stocks,2018,Head,8834259,"128,900 sq km",128900.00
+Bangladesh,Stocks,2018,Head,2274116,"130,170 sq km",130170.00
+Tajikistan,Stocks,2018,Head,3666729,"139,960 sq km",139960.00
+Nepal,Stocks,2018,Head,800749,"143,350 sq km",143350.00
+Tunisia,Stocks,2018,Head,6494939,"155,360 sq km",155360.00
+Suriname,Stocks,2018,Head,5983,"156,000 sq km",156000.00
+Uruguay,Stocks,2018,Head,6399000,"175,020 sq km",175020.00
+Syrian Arab Republic,Stocks,2018,Head,17716882,"185,180 km",185180.00
+Kyrgyzstan,Stocks,2018,Head,5361000,"191,800 sq km",191800.00
+Senegal,Stocks,2018,Head,6096261,"192,530 sq km",192530.00
+Guyana,Stocks,2018,Head,131770,"196,850 sq km",196850.00
+Uganda,Stocks,2018,Head,2094426,"197,100 sq km",197100.00
+Belarus,Stocks,2018,Head,87600,"202,900 sq km",202900.00
+Congo,Stocks,2018,Head,129741,"214,969 km",214969.00
+Ghana,Stocks,2018,Head,4886604,"227,540 sq km",227540.00
+Romania,Stocks,2018,Head,9981900,"229,890 sq km",229890.00
+United Kingdom,Stocks,2018,Head,33781000,"241,930 sq km",241930.00
+Guinea,Stocks,2018,Head,2708364,"245,720 sq km",245720.00
+Gabon,Stocks,2018,Head,218782,"257,670 sq km",257670.00
+Western Sahara,Stocks,2018,Head,37147,"266,000 km",266000.00
+New Zealand,Stocks,2018,Head,27295749,"267,710 sq km",267710.00
+Burkina Faso,Stocks,2018,Head,10394652,"273,600 sq km",273600.00
+Ecuador,Stocks,2018,Head,355897,"276,840 sq km",276840.00
+Italy,Stocks,2018,Head,7179158,"294,140 sq km",294140.00
+Philippines,Stocks,2018,Head,30000,"298,170 sq km",298170.00
+Finland,Stocks,2018,Head,154999,"304,090 sq km",304090.00
+Poland,Stocks,2018,Head,276737,"304,250 sq km",304250.00
+Norway,Stocks,2018,Head,2402828,"304,280 sq km",304280.00
+Oman,Stocks,2018,Head,605288,"309,500 sq km",309500.00
+Côte d'Ivoire,Stocks,2018,Head,1867482,"322,463 km",322463.00
+Malaysia,Stocks,2018,Head,138111,"328,550 sq km",328550.00
+Germany,Stocks,2018,Head,1569900,"348,770 sq km",348770.00
+Japan,Stocks,2018,Head,15161,"364,500 sq km",364500.00
+Zimbabwe,Stocks,2018,Head,436920,"386,850 sq km",386850.00
+Paraguay,Stocks,2018,Head,531947,"397,300 sq km",397300.00
+Sweden,Stocks,2018,Head,360120,"410,330 sq km",410330.00
+Greenland,Stocks,2018,Head,18083,"410,450 sq km",410450.00
+Uzbekistan,Stocks,2018,Head,17775000,"425,400 sq km",425400.00
+Iraq,Stocks,2018,Head,6501583,"437,370 sq km",437370.00
+Morocco,Stocks,2018,Head,19880000,"446,300 sq km",446300.00
+Papua New Guinea,Stocks,2018,Head,7350,"452,860 sq km",452860.00
+Turkmenistan,Stocks,2018,Head,14074027,"469,930 sq km",469930.00
+Cameroon,Stocks,2018,Head,3436274,"472,710 sq km",472710.00
+Spain,Stocks,2018,Head,15852525,"498,980 sq km",498980.00
+Thailand,Stocks,2018,Head,40681,"510,890 sq km",510890.00
+Yemen,Stocks,2018,Head,9661574,"527,968 km",527968.00
+France,Stocks,2018,Head,7042206,"547,660 sq km",547660.00
+Botswana,Stocks,2018,Head,223030,"566,730 sq km",566730.00
+Kenya,Stocks,2018,Head,19485699,"569,140 sq km",569140.00
+Ukraine,Stocks,2018,Head,727200,"579,330 sq km",579330.00
+Madagascar,Stocks,2018,Head,847678,"581,540 sq km",581540.00
+S. Sudan,Stocks,2018,Head,16277418,"619,745 km",619745.00
+Central African Rep.,Stocks,2018,Head,446966,"623,000 sq km",623000.00
+Somalia,Stocks,2018,Head,10649679,"627,340 sq km",627340.00
+Afghanistan,Stocks,2018,Head,14023689,"652,230 sq km",652230.00
+Myanmar,Stocks,2018,Head,1334305,"676,575 km",676575.00
+Zambia,Stocks,2018,Head,261987,"743,390 sq km",743390.00
+Chile,Stocks,2018,Head,3198130,"743,800 sq km",743800.00
+Turkey,Stocks,2018,Head,33677636,"769,630 sq km",769630.00
+Pakistan,Stocks,2018,Head,30498000,"770,880 sq km",770880.00
+Mozambique,Stocks,2018,Head,169310,"786,380 sq km",786380.00
+Namibia,Stocks,2018,Head,1717774,"823,290 sq km",823290.00
+Venezuela,Stocks,2018,Head,610553,"882,050 sq km",882050.00
+Tanzania,Stocks,2018,Head,7782332,"885,800 sq km",885800.00
+Nigeria,Stocks,2018,Head,42971860,"910,770 sq km",910770.00
+Ethiopia,Stocks,2018,Head,31688157,"1,000,000 sq km",1000000.00
+Egypt,Stocks,2018,Head,5552849,1.01 million sq km,1010000.00
+Mauritania,Stocks,2018,Head,11035860,1.03 million sq km,1030000.00
+Bolivia,Stocks,2018,Head,7493000,1.08 million sq km,1080000.00
+Colombia,Stocks,2018,Head,913051,1.11 million sq km,1110000.00
+South Africa,Stocks,2018,Head,22500072,1.21 million sq km,1210000.00
+Mali,Stocks,2018,Head,18270000,1.22 million sq km,1220000.00
+Angola,Stocks,2018,Head,1170996,1.25 million sq km,1250000.00
+Chad,Stocks,2018,Head,33215051,1.26 million sq km,1260000.00
+Niger,Stocks,2018,Head,12746788,1.27 million sq km,1270000.00
+Peru,Stocks,2018,Head,11331908,1.28 million sq km,1280000.00
+Mongolia,Stocks,2018,Head,30554804,1.55 million sq km,1550000.00
+Iran,Stocks,2018,Head,39670704,1.648 million sq km,1648000.00
+Libya,Stocks,2018,Head,7449771,1.76 million sq km,1760000.00
+Indonesia,Stocks,2018,Head,17398000,1.81 million sq km,1810000.00
+Sudan,Stocks,2018,Head,40846000,1.886 million sq km,1886000.00
+Mexico,Stocks,2018,Head,8683835,1.94 million sq km,1940000.00
+Saudi Arabia,Stocks,2018,Head,9408766,2 million sq km,2000000.00
+Dem. Rep. Congo,Stocks,2018,Head,899191,2.27 million sq km,2270000.00
+Algeria,Stocks,2018,Head,28693330,2.38 million sq km,2380000.00
+Kazakhstan,Stocks,2018,Head,16416177,2.7 million sq km,2700000.00
+Argentina,Stocks,2018,Head,14339908,2.74 million sq km,2740000.00
+Caribbean,Stocks,2018,Head,2021330,2.754 million sq km,2754000.00
+India,Stocks,2018,Head,61666343,2.97 million sq km,2970000.00
+Australia,Stocks,2018,Head,70067316,7.68 million sq km,7680000.00
+Brazil,Stocks,2018,Head,18948934,8.46 million sq km,8460000.00
+Canada,Stocks,2018,Head,829400,9.09 million sq km,9090000.00
+China,Stocks,2018,Head,164079093,9.33 million sq km,9330000.00
+United States of America,Stocks,2018,Head,5265000,9.834 million sq km,9834000.00
+Russian Federation,Stocks,2018,Head,22347284,16.38 million sq km,16380000.00
+Montserrat,Stocks,2018,Head,4839,102 km,102.00
+Gambia,Stocks,2018,Head,72611,"11,295 km",11295.00
+Falkland Islands,Stocks,2018,Head,699397,"12,173 km",12173.00
+Montenegro,Stocks,2018,Head,186490,"13,812 km",13812.00
+Bahamas,Stocks,2018,Head,6729,"13,878 km",13878.00
+Timor-Leste,Stocks,2018,Head,47085,"15,007 km",15007.00
+British Virgin Islands,Stocks,2018,Head,6100,153 km,153.00
+Eswatini,Stocks,2018,Head,39544,"17,364 km",17364.00
+Saint Pierre and Miquelon,Stocks,2018,Head,208,242 km,242.00
+North Macedonia,Stocks,2018,Head,726990,"25,713 km",25713.00
+Republic of Moldova,Stocks,2018,Head,679149,"33,846 km",33846.00
+"Saint Helena, Ascension and Tristan da Cunha",Stocks,2018,Head,794,420 km,420.00
+Czechia,Stocks,2018,Head,218915,"78,866 km",78866.00
+French Guiana,Stocks,2018,Head,1089,"83,534 km",83534.00
+Serbia,Stocks,2018,Head,1711677,"88,361 km",88361.00
+Netherlands Antilles (former),Stocks,2018,Head,10005,999 km,999.00
