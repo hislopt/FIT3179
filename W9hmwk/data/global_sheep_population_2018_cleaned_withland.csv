@@ -1,5 +1,5 @@
 Country,Element,Year,Unit,Value,Land SQM Text,Land sqkm
-Egypt,Stocks,2018,Head,5552849,1.01 million sq km,1010000.00
+Egypt,Stocks,2018,Head,5552849,1.01Â millionÂ sq km,1010000.00
 Mauritania,Stocks,2018,Head,11035860,1.03 million sq km,1030000.00
 Bolivia,Stocks,2018,Head,7493000,1.08 million sq km,1080000.00
 Colombia,Stocks,2018,Head,913051,1.11 million sq km,1110000.00
@@ -10,87 +10,87 @@ Chad,Stocks,2018,Head,33215051,1.26 million sq km,1260000.00
 Niger,Stocks,2018,Head,12746788,1.27 million sq km,1270000.00
 Peru,Stocks,2018,Head,11331908,1.28 million sq km,1280000.00
 Mongolia,Stocks,2018,Head,30554804,1.55 million sq km,1550000.00
-Iran,Stocks,2018,Head,39670704,1.648 million sq km,1648000.00
+Iran,Stocks,2018,Head,39670704,1.648Â millionÂ sq km,1648000.00
 Libya,Stocks,2018,Head,7449771,1.76 million sq km,1760000.00
 Indonesia,Stocks,2018,Head,17398000,1.81 million sq km,1810000.00
-Sudan,Stocks,2018,Head,40846000,1.886 million sq km,1886000.00
+Sudan,Stocks,2018,Head,40846000,1.886Â millionÂ sq km,1886000.00
 Mexico,Stocks,2018,Head,8683835,1.94 million sq km,1940000.00
 Saudi Arabia,Stocks,2018,Head,9408766,2 million sq km,2000000.00
 Democratic Republic of the Congo,Stocks,2018,Head,899191,2.27 million sq km,2270000.00
 Algeria,Stocks,2018,Head,28693330,2.38 million sq km,2380000.00
 Kazakhstan,Stocks,2018,Head,16416177,2.7 million sq km,2700000.00
 Argentina,Stocks,2018,Head,14339908,2.74 million sq km,2740000.00
-Caribbean,Stocks,2018,Head,2021330,2.754 million sq km,2754000.00
+Caribbean,Stocks,2018,Head,2021330,2.754Â millionÂ sq km,2754000.00
 India,Stocks,2018,Head,61666343,2.97 million sq km,2970000.00
 Australia,Stocks,2018,Head,70067316,7.68 million sq km,7680000.00
 Brazil,Stocks,2018,Head,18948934,8.46 million sq km,8460000.00
 Canada,Stocks,2018,Head,829400,9.09 million sq km,9090000.00
 China,Stocks,2018,Head,164079093,9.33 million sq km,9330000.00
-United States of America,Stocks,2018,Head,5265000,9.834 million sq km,9834000.00
-Russian Federation,Stocks,2018,Head,22347284,16.38 million sq km,16380000.00
+United States of America,Stocks,2018,Head,5265000,9.834Â million sqÂ km,9834000.00
+Russia,Stocks,2018,Head,22347284,16.38 million sq km,16380000.00
 Ethiopia,Stocks,2018,Head,31688157,"1,000,000 sq km","1,000,000"
-Hong Kong,Stocks,2018,Head,21,"1,106 km","1,106"
-Martinique,Stocks,2018,Head,12626,"1,128 km","1,128"
+Hong Kong,Stocks,2018,Head,21,"1,106Â km","1,106"
+Martinique,Stocks,2018,Head,12626,"1,128Â km","1,128"
 Faroe Islands,Stocks,2018,Head,70616,"1,400 sq km","1,400"
-Guadeloupe,Stocks,2018,Head,1340,"1,628 km","1,628"
+Guadeloupe,Stocks,2018,Head,1340,"1,628Â km","1,628"
 Comoros,Stocks,2018,Head,24815,"1,860 sq km","1,860"
 Lebanon,Stocks,2018,Head,459829,"10,230 sq km","10,230 "
 Jamaica,Stocks,2018,Head,1336,"10,830 sq km","10,830 "
-South Korea,Stocks,2018,Head,160789,"100,210 km","100,210"
+South Korea,Stocks,2018,Head,160789,"100,210Â km","100,210"
 Iceland,Stocks,2018,Head,432023,"100,250 sq km","100,250"
 Eritrea,Stocks,2018,Head,2432034,"101,000 sq km","101,000"
-Montserrat,Stocks,2018,Head,4839,102 km,102 
+Montserrat,Stocks,2018,Head,4839,102Â km,102Â 
 Guatemala,Stocks,2018,Head,595653,"107,160 sq km","107,160"
 Bulgaria,Stocks,2018,Head,1316784,"108,610 sq km","108,610"
 Cuba,Stocks,2018,Head,1471800,"109,820 sq km","109,820"
-Gambia,Stocks,2018,Head,72611,"11,295 km","11,295 "
+Gambia,Stocks,2018,Head,72611,"11,295Â km","11,295Â "
 Qatar,Stocks,2018,Head,272485,"11,590 sq km","11,590 "
 Benin,Stocks,2018,Head,954000,"110,620 sq km","110,620"
 Honduras,Stocks,2018,Head,16614,"111,890 sq km","111,890"
 Nicaragua,Stocks,2018,Head,6768,"119,990 sq km","119,990"
-Falkland Islands,Stocks,2018,Head,699397,"12,173 km","12,173 "
+Falkland Islands,Stocks,2018,Head,699397,"12,173Â km","12,173Â "
 Greece,Stocks,2018,Head,8834259,"128,900 sq km","128,900"
-Montenegro,Stocks,2018,Head,186490,"13,812 km","13,812 "
-Bahamas,Stocks,2018,Head,6729,"13,878 km","13,878 "
+Montenegro,Stocks,2018,Head,186490,"13,812Â km","13,812Â "
+Bahamas,Stocks,2018,Head,6729,"13,878Â km","13,878Â "
 Bangladesh,Stocks,2018,Head,2274116,"130,170 sq km","130,170"
 Tajikistan,Stocks,2018,Head,3666729,"139,960 sq km","139,960"
 Nepal,Stocks,2018,Head,800749,"143,350 sq km","143,350"
-Timor-Leste,Stocks,2018,Head,47085,"15,007 km","15,007 "
-British Virgin Islands,Stocks,2018,Head,6100,153 km,153 
+Timor-Leste,Stocks,2018,Head,47085,"15,007Â km","15,007Â "
+British Virgin Islands,Stocks,2018,Head,6100,153Â km,153Â 
 Tunisia,Stocks,2018,Head,6494939,"155,360 sq km","155,360"
 Suriname,Stocks,2018,Head,5983,"156,000 sq km","156,000"
 Liechtenstein,Stocks,2018,Head,3989,160 sq km,160 
-Eswatini,Stocks,2018,Head,39544,"17,364 km","17,364 "
+Eswatini,Stocks,2018,Head,39544,"17,364Â km","17,364Â "
 Kuwait,Stocks,2018,Head,684231,"17,820 sq km","17,820 "
 Uruguay,Stocks,2018,Head,6399000,"175,020 sq km","175,020"
 Fiji,Stocks,2018,Head,27697,"18,270 sq km","18,270 "
 New Caledonia,Stocks,2018,Head,2270,"18,280 sq km","18,280 "
-Syrian Arab Republic,Stocks,2018,Head,17716882,"185,180 km","185,180"
+Syrian Arab Republic,Stocks,2018,Head,17716882,"185,180Â km","185,180"
 Kyrgyzstan,Stocks,2018,Head,5361000,"191,800 sq km","191,800"
 Senegal,Stocks,2018,Head,6096261,"192,530 sq km","192,530"
 Guyana,Stocks,2018,Head,131770,"196,850 sq km","196,850"
 Uganda,Stocks,2018,Head,2094426,"197,100 sq km","197,100"
 Mauritius,Stocks,2018,Head,3806,"2,030 sq km","2,030"
-Réunion,Stocks,2018,Head,897,"2,512 km","2,512"
+RÃ©union,Stocks,2018,Head,897,"2,512Â km","2,512"
 Luxembourg,Stocks,2018,Head,8654,"2,590 sq km","2,590"
 Slovenia,Stocks,2018,Head,108761,"20,140 sq km","20,140 "
 El Salvador,Stocks,2018,Head,5319,"20,720 sq km","20,720 "
 Belarus,Stocks,2018,Head,87600,"202,900 sq km","202,900"
 Israel,Stocks,2018,Head,477340,"21,640 sq km","21,640 "
-Congo,Stocks,2018,Head,129741,"214,969 km","214,969"
+Congo,Stocks,2018,Head,129741,"214,969Â km","214,969"
 Belize,Stocks,2018,Head,15751,"22,810 sq km","22,810 "
 Ghana,Stocks,2018,Head,4886604,"227,540 sq km","227,540"
 Romania,Stocks,2018,Head,9981900,"229,890 sq km","229,890"
 Djibouti,Stocks,2018,Head,469095,"23,180 sq km","23,180 "
 Rwanda,Stocks,2018,Head,601836,"24,670 sq km","24,670 "
 United Kingdom,Stocks,2018,Head,33781000,"241,930 sq km","241,930"
-Saint Pierre and Miquelon,Stocks,2018,Head,208,242 km,242 
+Saint Pierre and Miquelon,Stocks,2018,Head,208,242Â km,242Â 
 Guinea,Stocks,2018,Head,2708364,"245,720 sq km","245,720"
 Burundi,Stocks,2018,Head,548608,"25,680 sq km","25,680 "
-North Macedonia,Stocks,2018,Head,726990,"25,713 km","25,713 "
+North Macedonia,Stocks,2018,Head,726990,"25,713Â km","25,713Â "
 Gabon,Stocks,2018,Head,218782,"257,670 sq km","257,670"
 Saint Kitts and Nevis,Stocks,2018,Head,5944,260 sq km,260 
-Western Sahara,Stocks,2018,Head,37147,"266,000 km","266,000"
+Western Sahara,Stocks,2018,Head,37147,"266,000Â km","266,000"
 New Zealand,Stocks,2018,Head,27295749,"267,710 sq km","267,710"
 Albania,Stocks,2018,Head,1863837,"27,400 sq km","27,400 "
 Haiti,Stocks,2018,Head,157912,"27,560 sq km","27,560 "
@@ -109,25 +109,25 @@ Poland,Stocks,2018,Head,276737,"304,250 sq km","304,250"
 Norway,Stocks,2018,Head,2402828,"304,280 sq km","304,280"
 Oman,Stocks,2018,Head,605288,"309,500 sq km","309,500"
 Malta,Stocks,2018,Head,13169,320 sq km,320 
-Côte d'Ivoire,Stocks,2018,Head,1867482,"322,463 km","322,463"
+CÃ´te d'Ivoire,Stocks,2018,Head,1867482,"322,463Â km","322,463"
 Malaysia,Stocks,2018,Head,138111,"328,550 sq km","328,550"
 Netherlands,Stocks,2018,Head,956943,"33,760 sq km","33,760 "
-Republic of Moldova,Stocks,2018,Head,679149,"33,846 km","33,846 "
+Republic of Moldova,Stocks,2018,Head,679149,"33,846Â km","33,846Â "
 Grenada,Stocks,2018,Head,13658,340 sq km,340 
-United States Virgin Islands,Stocks,2018,Head,3264,346.4 km,346.4
+United States Virgin Islands,Stocks,2018,Head,3264,346.4Â km,346.4
 Germany,Stocks,2018,Head,1569900,"348,770 sq km","348,770"
 Japan,Stocks,2018,Head,15161,"364,500 sq km","364,500"
 Bhutan,Stocks,2018,Head,9461,"38,394 sq km","38,394 "
 Zimbabwe,Stocks,2018,Head,436920,"386,850 sq km","386,850"
 Saint Vincent and the Grenadines,Stocks,2018,Head,8430,390 sq km,390 
 Paraguay,Stocks,2018,Head,531947,"397,300 sq km","397,300"
-Cabo Verde,Stocks,2018,Head,12620,"4,033 km","4,033"
+Cabo Verde,Stocks,2018,Head,12620,"4,033Â km","4,033"
 Switzerland,Stocks,2018,Head,343470,"40,000 sq km","40,000 "
 Sweden,Stocks,2018,Head,360120,"410,330 sq km","410,330"
 Greenland,Stocks,2018,Head,18083,"410,450 sq km","410,450"
 Estonia,Stocks,2018,Head,73100,"42,390 sq km","42,390 "
 Denmark,Stocks,2018,Head,143797,"42,430 sq km","42,430 "
-"Saint Helena, Ascension and Tristan da Cunha",Stocks,2018,Head,794,420 km,420 
+"Saint Helena, Ascension and Tristan da Cunha",Stocks,2018,Head,794,420Â km,420Â 
 Uzbekistan,Stocks,2018,Head,17775000,"425,400 sq km","425,400"
 Barbados,Stocks,2018,Head,13802,430 sq km,430 
 Iraq,Stocks,2018,Head,6501583,"437,370 sq km","437,370"
@@ -140,11 +140,11 @@ Slovakia,Stocks,2018,Head,365344,"48,100 sq km","48,100 "
 Dominican Republic,Stocks,2018,Head,251481,"48,320 sq km","48,320 "
 Spain,Stocks,2018,Head,15852525,"498,980 sq km","498,980"
 Trinidad and Tobago,Stocks,2018,Head,14152,"5,130 sq km","5,130"
-Brunei Darussalam,Stocks,2018,Head,4622,"5,765 km","5,765"
+Brunei Darussalam,Stocks,2018,Head,4622,"5,765Â km","5,765"
 Costa Rica,Stocks,2018,Head,2819,"51,060 sq km","51,060 "
 Bosnia and Herzegovina,Stocks,2018,Head,1012546,"51,200 sq km","51,200 "
 Thailand,Stocks,2018,Head,40681,"510,890 sq km","510,890"
-Yemen,Stocks,2018,Head,9661574,"527,968 km","527,968"
+Yemen,Stocks,2018,Head,9661574,"527,968Â km","527,968"
 Croatia,Stocks,2018,Head,636294,"53,910 sq km","53,910 "
 Togo,Stocks,2018,Head,1552087,"54,390 sq km","54,390 "
 France,Stocks,2018,Head,7042206,"547,660 sq km","547,660"
@@ -152,16 +152,16 @@ Botswana,Stocks,2018,Head,223030,"566,730 sq km","566,730"
 Kenya,Stocks,2018,Head,19485699,"569,140 sq km","569,140"
 Ukraine,Stocks,2018,Head,727200,"579,330 sq km","579,330"
 Madagascar,Stocks,2018,Head,847678,"581,540 sq km","581,540"
-Palestine,Stocks,2018,Head,753677,"6,220 km","6,220"
+Palestine,Stocks,2018,Head,753677,"6,220Â km","6,220"
 Saint Lucia,Stocks,2018,Head,9064,610 sq km,610 
-South Sudan,Stocks,2018,Head,16277418,"619,745 km","619,745"
+South Sudan,Stocks,2018,Head,16277418,"619,745Â km","619,745"
 Latvia,Stocks,2018,Head,112208,"62,250 sq km","62,250 "
 Lithuania,Stocks,2018,Head,169685,"62,680 sq km","62,680 "
 Central African Republic,Stocks,2018,Head,446966,"623,000 sq km","623,000"
 Somalia,Stocks,2018,Head,10649679,"627,340 sq km","627,340"
 Sri Lanka,Stocks,2018,Head,11382,"64,630 sq km","64,630 "
 Afghanistan,Stocks,2018,Head,14023689,"652,230 sq km","652,230"
-Myanmar,Stocks,2018,Head,1334305,"676,575 km","676,575"
+Myanmar,Stocks,2018,Head,1334305,"676,575Â km","676,575"
 Ireland,Stocks,2018,Head,5109300,"68,890 sq km","68,890 "
 Georgia,Stocks,2018,Head,855900,"69,490 sq km","69,490 "
 Sierra Leone,Stocks,2018,Head,871388,"71,620 sq km","71,620 "
@@ -171,16 +171,16 @@ Chile,Stocks,2018,Head,3198130,"743,800 sq km","743,800"
 Dominica,Stocks,2018,Head,7990,750 sq km,750 
 Turkey,Stocks,2018,Head,33677636,"769,630 sq km","769,630"
 Pakistan,Stocks,2018,Head,30498000,"770,880 sq km","770,880"
-Czechia,Stocks,2018,Head,218915,"78,866 km","78,866 "
+Czechia,Stocks,2018,Head,218915,"78,866Â km","78,866Â "
 Mozambique,Stocks,2018,Head,169310,"786,380 sq km","786,380"
 Puerto Rico,Stocks,2018,Head,6998,"8,870 sq km","8,870"
 Austria,Stocks,2018,Head,401480,"82,450 sq km","82,450 "
 Azerbaijan,Stocks,2018,Head,7681674,"82,629 sq km","82,629 "
 Namibia,Stocks,2018,Head,1717774,"823,290 sq km","823,290"
-French Guiana,Stocks,2018,Head,1089,"83,534 km","83,534 "
+French Guiana,Stocks,2018,Head,1089,"83,534Â km","83,534Â "
 United Arab Emirates,Stocks,2018,Head,2147665,"83,600 sq km","83,600 "
 Jordan,Stocks,2018,Head,3022882,"88,240 sq km","88,240 "
-Serbia,Stocks,2018,Head,1711677,"88,361 km","88,361 "
+Serbia,Stocks,2018,Head,1711677,"88,361Â km","88,361Â "
 Venezuela,Stocks,2018,Head,610553,"882,050 sq km","882,050"
 Tanzania,Stocks,2018,Head,7782332,"885,800 sq km","885,800"
 Hungary,Stocks,2018,Head,1146000,"89,610 sq km","89,610 "
@@ -190,4 +190,4 @@ Nigeria,Stocks,2018,Head,42971860,"910,770 sq km","910,770"
 Malawi,Stocks,2018,Head,317899,"94,080 sq km","94,080 "
 Liberia,Stocks,2018,Head,309992,"96,320 sq km","96,320 "
 Sao Tome and Principe,Stocks,2018,Head,3436,960 sq km,960 
-Netherlands Antilles (former),Stocks,2018,Head,10005,999 km,999 
+Netherlands Antilles (former),Stocks,2018,Head,10005,999Â km,999Â 
