@@ -1,6 +1,11 @@
-Country,Element,Year,Unit,Value,Land SQM Text,Land sqkm,Sheep per SQKM,Population
-United Kingdom,Stocks,2018,Head,33781000,"241,930 sq km",241930,139.6312983,66270000
-Palestine,Stocks,2018,Head,753677,"6,220 km",6220,121.1699357,4569000
-New Zealand,Stocks,2018,Head,27295749,"267,710 sq km",267710,101.9601397,4886000
-Syrian Arab Republic,Stocks,2018,Head,17716882,"185,180 km",185180,95.67384167,16910000
-Azerbaijan,Stocks,2018,Head,7681674,"82,629 sq km",82629,92.96583524,9898000
+Country,Element,Year,Unit,Population,Land SQM Text,Land sqkm,Sheep per SQKM,Population Type
+United Kingdom,Stocks,2018,Head,33781000,"241,930 sq km",241930,139.6312983,Sheep
+Palestine,Stocks,2018,Head,753677,"6,220 km",6220,121.1699357,Sheep
+New Zealand,Stocks,2018,Head,27295749,"267,710 sq km",267710,101.9601397,Sheep
+Syrian Arab Republic,Stocks,2018,Head,17716882,"185,180 km",185180,95.67384167,Sheep
+Azerbaijan,Stocks,2018,Head,7681674,"82,629 sq km",82629,92.96583524,Sheep
+United Kingdom,Stocks,2018,Head,66270000,"241,930 sq km",241930,139.6312983,Human
+Palestine,Stocks,2018,Head,4569000,"6,220 km",6220,121.1699357,Human
+New Zealand,Stocks,2018,Head,4886000,"267,710 sq km",267710,101.9601397,Human
+Syrian Arab Republic,Stocks,2018,Head,16910000,"185,180 km",185180,95.67384167,Human
+Azerbaijan,Stocks,2018,Head,9898000,"82,629 sq km",82629,92.96583524,Human
