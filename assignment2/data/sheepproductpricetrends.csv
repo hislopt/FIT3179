@@ -1,31 +1,31 @@
 year-end,product type,nzd per head,price type
-2014,lamb,100,historical
-2015,lamb,94,historical
-2016,lamb,93,historical
-2017,lamb,106,historical
-2018,lamb,122,forecast
-2014,mutton,77,historical
-2015,mutton,67,historical
-2016,mutton,57,historical
-2017,mutton,74,historical
-2018,mutton,100,forecast
-2014,fine wool,10,historical
-2015,fine wool,9.15,historical
-2016,fine wool,9.97,historical
-2017,fine wool,10.74,historical
-2018,fine wool,13.43,forecast
-2014,medium wool,5.49,historical
-2015,medium wool,6.06,historical
-2016,medium wool,7.25,historical
-2017,medium wool,6.08,historical
-2018,medium wool,6.38,forecast
-2014,strong wool,3.84,historical
-2015,strong wool,4.07,historical
-2016,strong wool,4.45,historical
-2017,strong wool,3.15,historical
-2018,strong wool,2.52,forecast
-2014,nzd to usd,0.84,historical
-2015,nzd to usd,0.73,historical
-2016,nzd to usd,0.69,historical
-2017,nzd to usd,0.71,historical
-2018,nzd to usd,0.69,forecast
+30/09/2014,lamb,100,historical
+30/09/2015,lamb,94,historical
+30/09/2016,lamb,93,historical
+30/09/2017,lamb,106,historical
+30/09/2018,lamb,122,forecast
+30/09/2014,mutton,77,historical
+30/09/2015,mutton,67,historical
+30/09/2016,mutton,57,historical
+30/09/2017,mutton,74,historical
+30/09/2018,mutton,100,forecast
+30/09/2014,fine wool,10,historical
+30/09/2015,fine wool,9.15,historical
+30/09/2016,fine wool,9.97,historical
+30/09/2017,fine wool,10.74,historical
+30/09/2018,fine wool,13.43,forecast
+30/09/2014,medium wool,5.49,historical
+30/09/2015,medium wool,6.06,historical
+30/09/2016,medium wool,7.25,historical
+30/09/2017,medium wool,6.08,historical
+30/09/2018,medium wool,6.38,forecast
+30/09/2014,strong wool,3.84,historical
+30/09/2015,strong wool,4.07,historical
+30/09/2016,strong wool,4.45,historical
+30/09/2017,strong wool,3.15,historical
+30/09/2018,strong wool,2.52,forecast
+30/09/2014,nzd to usd,0.84,historical
+30/09/2015,nzd to usd,0.73,historical
+30/09/2016,nzd to usd,0.69,historical
+30/09/2017,nzd to usd,0.71,historical
+30/09/2018,nzd to usd,0.69,forecast
