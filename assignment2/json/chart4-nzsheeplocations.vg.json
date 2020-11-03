@@ -1,0 +1,157 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "lightyellow",
+  "padding": 5,
+  "width": 400,
+  "height": 500,
+  "title": {
+    "text": "Sheep Located in New Zealand (2015-2019)",
+    "frame": "group"
+  },
+  "style": "cell",
+  "data": [
+    {
+      "name": "source_0",
+      "url": "https://raw.githubusercontent.com/hislopt/FIT3179/main/assignment2/json/nz_shapefiles.json",
+      "format": {"type": "topojson", "feature": "ne_50m_admin_0_countries"}
+    },
+    {
+      "name": "source_1",
+      "url": "https://raw.githubusercontent.com/hislopt/FIT3179/main/assignment2/data/sheepcountbyregionnz.csv",
+      "format": {"type": "csv", "delimiter": ","},
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "Year_Selection == null || datum.Year == Year_Selection"
+        },
+        {
+          "type": "filter",
+          "expr": "Type_Selection == null || datum.Sheep_Type == Type_Selection"
+        },
+        {
+          "type": "geopoint",
+          "projection": "projection",
+          "fields": ["Longitude", "Latitude"],
+          "as": ["layer_1_layer_0_x", "layer_1_layer_0_y"]
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"Number\"]) && isFinite(+datum[\"Number\"])"
+        }
+      ]
+    }
+  ],
+  "projections": [
+    {
+      "name": "projection",
+      "translate": {"signal": "[width / 2, height / 2]"},
+      "type": "azimuthalEqualArea",
+      "rotate": [-173, 41, 0],
+      "scale": 1650
+    }
+  ],
+  "signals": [
+    {
+      "name": "Year_Selection",
+      "value": 2015,
+      "bind": {
+        "input": "range",
+        "min": 2015,
+        "max": 2019,
+        "step": 1,
+        "name": "Year:"
+      }
+    },
+    {
+      "name": "Type_Selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          "All Sheep",
+          "All Lambs",
+          "Breeding Ewes",
+          "Ewe Hoggets",
+          "Lamb (Ewe Born)",
+          "Lamb (Ewe Hoggets Born)"
+        ]
+      }
+    }
+  ],
+  "marks": [
+    {
+      "name": "layer_0_marks",
+      "type": "shape",
+      "clip": true,
+      "style": ["geoshape"],
+      "from": {"data": "source_0"},
+      "encode": {
+        "update": {
+          "fill": {"value": "mintcream"},
+          "stroke": {"value": "lightslategrey"},
+          "ariaRoleDescription": {"value": "geoshape"}
+        }
+      },
+      "transform": [{"type": "geoshape", "projection": "projection"}]
+    },
+    {
+      "name": "layer_1_layer_0_marks",
+      "type": "symbol",
+      "clip": true,
+      "style": ["circle"],
+      "from": {"data": "source_1"},
+      "encode": {
+        "update": {
+          "opacity": {"value": 0.7},
+          "fill": {"scale": "color", "field": "Year"},
+          "tooltip": {
+            "signal": "{\"Location\": isValid(datum[\"Location\"]) ? datum[\"Location\"] : \"\"+datum[\"Location\"], \"Number of Sheep\": format(datum[\"Number\"], \"\"), \"Type of Sheep\": isValid(datum[\"Sheep_Type\"]) ? datum[\"Sheep_Type\"] : \"\"+datum[\"Sheep_Type\"], \"Year\": format(datum[\"Year\"], \"\")}"
+          },
+          "ariaRoleDescription": {"value": "circle"},
+          "description": {
+            "signal": "\"Longitude: \" + (format(datum[\"Longitude\"], \"\")) + \"; Latitude: \" + (format(datum[\"Latitude\"], \"\")) + \"; Number: \" + (format(datum[\"Number\"], \"\")) + \"; Year: \" + (isValid(datum[\"Year\"]) ? datum[\"Year\"] : \"\"+datum[\"Year\"]) + \"; Location: \" + (isValid(datum[\"Location\"]) ? datum[\"Location\"] : \"\"+datum[\"Location\"]) + \"; Number of Sheep: \" + (format(datum[\"Number\"], \"\")) + \"; Type of Sheep: \" + (isValid(datum[\"Sheep_Type\"]) ? datum[\"Sheep_Type\"] : \"\"+datum[\"Sheep_Type\"])"
+          },
+          "x": {"field": "layer_1_layer_0_x"},
+          "y": {"field": "layer_1_layer_0_y"},
+          "size": {"scale": "size", "field": "Number"},
+          "shape": {"value": "circle"}
+        }
+      }
+    }
+  ],
+  "scales": [
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "source_1", "field": "Year", "sort": true},
+      "range": {"scheme": "blues"},
+      "interpolate": "hcl"
+    },
+    {
+      "name": "size",
+      "type": "threshold",
+      "domain": [10, 100, 500, 1000, 2000, 4000],
+      "range": {
+        "signal": "sequence(9, 361 + (361 - 9) / (7 - 1), (361 - 9) / (7 - 1))"
+      }
+    }
+  ],
+  "legends": [
+    {
+      "size": "size",
+      "labelOverlap": "greedy",
+      "symbolType": "circle",
+      "title": "Number",
+      "encode": {
+        "symbols": {
+          "update": {
+            "fill": {"value": "black"},
+            "fillOpacity": {"value": 0.7},
+            "opacity": {"value": 0.7},
+            "stroke": {"value": "transparent"}
+          }
+        }
+      }
+    }
+  ],
+  "config": {}
+}

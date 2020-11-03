@@ -1,0 +1,90 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "white",
+  "padding": 5,
+  "width": 650,
+  "height": 450,
+  "title": {"text": "Global Sheep Density (2018)", "frame": "group"},
+  "style": "cell",
+  "data": [
+    {
+      "name": "source_1",
+      "url": "https://raw.githubusercontent.com/hislopt/FIT3179/main/W9hmwk/data/sheepdensity_persqkm.csv",
+      "format": {"type": "csv", "delimiter": ","}
+    },
+    {
+      "name": "source_0",
+      "url": "https://raw.githubusercontent.com/hislopt/FIT3179/main/W9hmwk/json/ne_50m_admin_0_countries.topojson",
+      "format": {
+        "type": "topojson",
+        "feature": "ne_50m_admin_0_countries",
+        "parse": {}
+      },
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "datum[\"properties\"] && datum[\"properties\"][\"NAME\"]",
+          "as": "properties.NAME"
+        },
+        {
+          "type": "lookup",
+          "from": "source_1",
+          "key": "Country",
+          "fields": ["properties.NAME"],
+          "values": ["Value", "Land sqkm", "Sheep per SQKM"]
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"Sheep per SQKM\"]) && isFinite(+datum[\"Sheep per SQKM\"])"
+        }
+      ]
+    }
+  ],
+  "projections": [
+    {
+      "name": "projection",
+      "size": {"signal": "[width, height]"},
+      "fit": {"signal": "data('source_0')"},
+      "type": "equalEarth"
+    }
+  ],
+  "marks": [
+    {
+      "name": "marks",
+      "type": "shape",
+      "style": ["geoshape"],
+      "from": {"data": "source_0"},
+      "encode": {
+        "update": {
+          "fill": {"scale": "color", "field": "Sheep per SQKM"},
+          "tooltip": {
+            "signal": "{\"Country\": isValid(datum[\"properties.NAME\"]) ? datum[\"properties.NAME\"] : \"\"+datum[\"properties.NAME\"], \"Number of Sheep\": format(datum[\"Value\"], \"\"), \"Total Land (SQKM)\": format(datum[\"Land sqkm\"], \"\"), \"Total Sheep per Square Kilometre\": format(datum[\"Sheep per SQKM\"], \".2f\")}"
+          },
+          "ariaRoleDescription": {"value": "geoshape"},
+          "description": {
+            "signal": "\"Sheep per SQKM: \" + (format(datum[\"Sheep per SQKM\"], \"\")) + \"; Country: \" + (isValid(datum[\"properties.NAME\"]) ? datum[\"properties.NAME\"] : \"\"+datum[\"properties.NAME\"]) + \"; Number of Sheep: \" + (format(datum[\"Value\"], \"\")) + \"; Total Land (SQKM): \" + (format(datum[\"Land sqkm\"], \"\")) + \"; Total Sheep per Square Kilometre: \" + (format(datum[\"Sheep per SQKM\"], \".2f\"))"
+          }
+        }
+      },
+      "transform": [{"type": "geoshape", "projection": "projection"}]
+    }
+  ],
+  "scales": [
+    {
+      "name": "color",
+      "type": "linear",
+      "domain": {"data": "source_0", "field": "Sheep per SQKM"},
+      "range": "heatmap",
+      "interpolate": "hcl",
+      "zero": false
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "gradientLength": {"signal": "clamp(height, 64, 200)"},
+      "title": "Sheep per SQKM"
+    }
+  ],
+  "config": {}
+}
