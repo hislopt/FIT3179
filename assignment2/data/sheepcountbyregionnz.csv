@@ -1,20 +1,190 @@
 Location,Number,Year,Sheep_Type,Latitude,Longitude
-Northland                  , 164 ,2018,Breeding Ewes,-35.43521,174.16651
+Northland                  , 366 ,2016,All Sheep,-35.43521,174.16651
+Auckland                   , 202 ,2016,All Sheep,-36.848461,174.763336
+Waikato                    ," 1,666 ",2016,All Sheep,-37.390202,174.729004
+Bay of Plenty              , 263 ,2016,All Sheep,-37.68927,177.142288
+Gisborne                   ," 1,515 ",2016,All Sheep,-38.662334,178.017654
+Hawke's Bay                 ," 2,873 ",2016,All Sheep,-39.6017,176.5804
+Taranaki                   , 434 ,2016,All Sheep,-39.2711067,174.154795
+Manawat?-Whanganui," 5,040 ",2016,All Sheep,-39.7001275,175.4986325
+Wellington                 ," 1,333 ",2016,All Sheep,-41.2887953,174.7772114
+Tasman                , 253 ,2016,All Sheep,-41.30222105,172.8945319
+Nelson, 5 ,2016,All Sheep,-41.2710849,173.2836756
+Marlborough             , 434 ,2016,All Sheep,-41.47447475,173.8330263
+West Coast                 , 23 ,2016,All Sheep,-42.73894375,171.2438965
+Canterbury                 ," 4,585 ",2016,All Sheep,-43.65992407,171.1450195
+Otago                      ," 4,819 ",2016,All Sheep,-45.47554027,170.0244141
+Southland                  ," 3,711 ",2016,All Sheep,-45.89000816,167.6843262
+Chatham Islands, 60 ,2016,All Sheep,-43.98491011,-176.4624023
+Northland                  ,298,2016,All Lambs,-35.43521,174.16651
+Auckland                   ,159,2016,All Lambs,-36.848461,174.763336
+Waikato                    ,"1,528",2016,All Lambs,-37.390202,174.729004
+Bay of Plenty              ,250,2016,All Lambs,-37.68927,177.142288
+Gisborne                   ,"1,330",2016,All Lambs,-38.662334,178.017654
+Hawke's Bay                 ,"2,340",2016,All Lambs,-39.6017,176.5804
+Taranaki                   ,363,2016,All Lambs,-39.2711067,174.154795
+Manawat?-Whanganui,"4,584",2016,All Lambs,-39.7001275,175.4986325
+Wellington                 ,"1,228",2016,All Lambs,-41.2887953,174.7772114
+Tasman                ,218,2016,All Lambs,-41.30222105,172.8945319
+Nelson,4,2016,All Lambs,-41.2710849,173.2836756
+Marlborough             ,295,2016,All Lambs,-41.47447475,173.8330263
+West Coast                 ,24,2016,All Lambs,-42.73894375,171.2438965
+Canterbury                 ,"3,526",2016,All Lambs,-43.65992407,171.1450195
+Otago                      ,"4,404",2016,All Lambs,-45.47554027,170.0244141
+Southland                  ,"3,988",2016,All Lambs,-45.89000816,167.6843262
+Chatham Islands,32,2016,All Lambs,-43.98491011,-176.4624023
+Northland                  ,381,2015,All Sheep,-35.43521,174.16651
+Auckland                   ,241,2015,All Sheep,-36.848461,174.763336
+Waikato                    ,"1,646",2015,All Sheep,-37.390202,174.729004
+Bay of Plenty              ,303,2015,All Sheep,-37.68927,177.142288
+Gisborne                   ,"1,472",2015,All Sheep,-38.662334,178.017654
+Hawke's Bay                 ,"3,029",2015,All Sheep,-39.6017,176.5804
+Taranaki                   ,500,2015,All Sheep,-39.2711067,174.154795
+Manawat?-Whanganui,"5,519",2015,All Sheep,-39.7001275,175.4986325
+Wellington                 ,"1,420",2015,All Sheep,-41.2887953,174.7772114
+Tasman                ,355,2015,All Sheep,-41.30222105,172.8945319
+Nelson,9,2015,All Sheep,-41.2710849,173.2836756
+Marlborough             ,453,2015,All Sheep,-41.47447475,173.8330263
+West Coast                 ,25,2015,All Sheep,-42.73894375,171.2438965
+Canterbury                 ,"4,501",2015,All Sheep,-43.65992407,171.1450195
+Otago                      ,"5,120",2015,All Sheep,-45.47554027,170.0244141
+Southland                  ,"4,073",2015,All Sheep,-45.89000816,167.6843262
+Chatham Islands,74,2015,All Sheep,-43.98491011,-176.4624023
+Northland                  ,294,2015,All Lambs,-35.43521,174.16651
+Auckland                   ,167,2015,All Lambs,-36.848461,174.763336
+Waikato                    ,"1,465",2015,All Lambs,-37.390202,174.729004
+Bay of Plenty              ,280,2015,All Lambs,-37.68927,177.142288
+Gisborne                   ,"1,279",2015,All Lambs,-38.662334,178.017654
+Hawke's Bay                 ,"2,427",2015,All Lambs,-39.6017,176.5804
+Taranaki                   ,399,2015,All Lambs,-39.2711067,174.154795
+Manawat?-Whanganui,"4,971",2015,All Lambs,-39.7001275,175.4986325
+Wellington                 ,"1,279",2015,All Lambs,-41.2887953,174.7772114
+Tasman                ,322,2015,All Lambs,-41.30222105,172.8945319
+Nelson,8,2015,All Lambs,-41.2710849,173.2836756
+Marlborough             ,317,2015,All Lambs,-41.47447475,173.8330263
+West Coast                 ,27,2015,All Lambs,-42.73894375,171.2438965
+Canterbury                 ,"3,642",2015,All Lambs,-43.65992407,171.1450195
+Otago                      ,"4,545",2015,All Lambs,-45.47554027,170.0244141
+Southland                  ,"4,366",2015,All Lambs,-45.89000816,167.6843262
+Chatham Islands,43,2015,All Lambs,-43.98491011,-176.4624023
+Northland                  ,280,2018,All Sheep,-35.43521,174.16651
+Auckland                   ,202,2018,All Sheep,-36.848461,174.763336
+Waikato                    ,"1,632",2018,All Sheep,-37.390202,174.729004
+Bay of Plenty              ,233,2018,All Sheep,-37.68927,177.142288
+Gisborne                   ,"1,457",2018,All Sheep,-38.662334,178.017654
+Hawke's Bay                 ,"2,851",2018,All Sheep,-39.6017,176.5804
+Taranaki                   ,395,2018,All Sheep,-39.2711067,174.154795
+Manawat?-Whanganui,"5,060",2018,All Sheep,-39.7001275,175.4986325
+Wellington                 ,"1,474",2018,All Sheep,-41.2887953,174.7772114
+Tasman                ,246,2018,All Sheep,-41.30222105,172.8945319
+Nelson,27,2018,All Sheep,-41.2710849,173.2836756
+Marlborough             ,496,2018,All Sheep,-41.47447475,173.8330263
+West Coast                 ,S,2018,All Sheep,-42.73894375,171.2438965
+Canterbury                 ,"4,423",2018,All Sheep,-43.65992407,171.1450195
+Otago                      ,"4,937",2018,All Sheep,-45.47554027,170.0244141
+Southland                  ,"3,488",2018,All Sheep,-45.89000816,167.6843262
+Chatham Islands,S,2018,All Sheep,-43.98491011,-176.4624023
+Northland                  , 247 ,2018,All Lambs,-35.43521,174.16651
+Auckland                   , 171 ,2018,All Lambs,-36.848461,174.763336
+Waikato                    ," 1,451 ",2018,All Lambs,-37.390202,174.729004
+Bay of Plenty              , 233 ,2018,All Lambs,-37.68927,177.142288
+Gisborne                   ," 1,306 ",2018,All Lambs,-38.662334,178.017654
+Hawke's Bay                 ," 2,265 ",2018,All Lambs,-39.6017,176.5804
+Taranaki                   , 374 ,2018,All Lambs,-39.2711067,174.154795
+Manawat?-Whanganui," 4,793 ",2018,All Lambs,-39.7001275,175.4986325
+Wellington                 ," 1,352 ",2018,All Lambs,-41.2887953,174.7772114
+Tasman                , 224 ,2018,All Lambs,-41.30222105,172.8945319
+Nelson, 21 ,2018,All Lambs,-41.2710849,173.2836756
+Marlborough             , 325 ,2018,All Lambs,-41.47447475,173.8330263
+West Coast                 , S ,2018,All Lambs,-42.73894375,171.2438965
+Canterbury                 ," 3,281 ",2018,All Lambs,-43.65992407,171.1450195
+Otago                      ," 4,680 ",2018,All Lambs,-45.47554027,170.0244141
+Southland                  ," 3,915 ",2018,All Lambs,-45.89000816,167.6843262
+Chatham Islands, S ,2018,All Lambs,-43.98491011,-176.4624023
+Northland                  ,278,2019,All Sheep,-35.43521,174.16651
+Auckland                   ,S,2019,All Sheep,-36.848461,174.763336
+Waikato                    ,"1,524",2019,All Sheep,-37.390202,174.729004
+Bay of Plenty              ,238,2019,All Sheep,-37.68927,177.142288
+Gisborne                   ,"1,380",2019,All Sheep,-38.662334,178.017654
+Hawke's Bay                 ,"2,876",2019,All Sheep,-39.6017,176.5804
+Taranaki                   ,442,2019,All Sheep,-39.2711067,174.154795
+Manawat?-Whanganui,"4,791",2019,All Sheep,-39.7001275,175.4986325
+Wellington                 ,"1,434",2019,All Sheep,-41.2887953,174.7772114
+Tasman                ,234,2019,All Sheep,-41.30222105,172.8945319
+Nelson,10,2019,All Sheep,-41.2710849,173.2836756
+Marlborough             ,518,2019,All Sheep,-41.47447475,173.8330263
+West Coast                 ,21,2019,All Sheep,-42.73894375,171.2438965
+Canterbury                 ,"4,573",2019,All Sheep,-43.65992407,171.1450195
+Otago                      ,"4,888",2019,All Sheep,-45.47554027,170.0244141
+Southland                  ,"3,327",2019,All Sheep,-45.89000816,167.6843262
+Chatham Islands,S,2019,All Sheep,-43.98491011,-176.4624023
+Northland                  , 231 ,2019,All Lambs,-35.43521,174.16651
+Auckland                   , S ,2019,All Lambs,-36.848461,174.763336
+Waikato                    ," 1,467 ",2019,All Lambs,-37.390202,174.729004
+Bay of Plenty              , 223 ,2019,All Lambs,-37.68927,177.142288
+Gisborne                   ," 1,216 ",2019,All Lambs,-38.662334,178.017654
+Hawke's Bay                 ," 2,075 ",2019,All Lambs,-39.6017,176.5804
+Taranaki                   , 393 ,2019,All Lambs,-39.2711067,174.154795
+Manawat?-Whanganui," 4,525 ",2019,All Lambs,-39.7001275,175.4986325
+Wellington                 ," 1,253 ",2019,All Lambs,-41.2887953,174.7772114
+Tasman                , 205 ,2019,All Lambs,-41.30222105,172.8945319
+Nelson, 8 ,2019,All Lambs,-41.2710849,173.2836756
+Marlborough             , 352 ,2019,All Lambs,-41.47447475,173.8330263
+West Coast                 , 31 ,2019,All Lambs,-42.73894375,171.2438965
+Canterbury                 ," 3,496 ",2019,All Lambs,-43.65992407,171.1450195
+Otago                      ," 4,493 ",2019,All Lambs,-45.47554027,170.0244141
+Southland                  ," 3,634 ",2019,All Lambs,-45.89000816,167.6843262
+Chatham Islands, S ,2019,All Lambs,-43.98491011,-176.4624023
+Northland                  ,328,2017,All Sheep,-35.43521,174.16651
+Auckland                   ,253,2017,All Sheep,-36.848461,174.763336
+Waikato                    ,"1,479",2017,All Sheep,-37.390202,174.729004
+Bay of Plenty              ,282,2017,All Sheep,-37.68927,177.142288
+Gisborne                   ,"1,412",2017,All Sheep,-38.662334,178.017654
+Hawke's Bay                 ,"2,794",2017,All Sheep,-39.6017,176.5804
+Taranaki                   ,498,2017,All Sheep,-39.2711067,174.154795
+Manawat?-Whanganui,"5,062",2017,All Sheep,-39.7001275,175.4986325
+Wellington                 ,"1,512",2017,All Sheep,-41.2887953,174.7772114
+Tasman                ,262,2017,All Sheep,-41.30222105,172.8945319
+Nelson,S,2017,All Sheep,-41.2710849,173.2836756
+Marlborough             ,469,2017,All Sheep,-41.47447475,173.8330263
+West Coast                 ,40,2017,All Sheep,-42.73894375,171.2438965
+Canterbury                 ,"4,474",2017,All Sheep,-43.65992407,171.1450195
+Otago                      ,"4,587",2017,All Sheep,-45.47554027,170.0244141
+Southland                  ,"3,987",2017,All Sheep,-45.89000816,167.6843262
+Chatham Islands,69,2017,All Sheep,-43.98491011,-176.4624023
+Northland                  , 277 ,2017,All Lambs,-35.43521,174.16651
+Auckland                   , 204 ,2017,All Lambs,-36.848461,174.763336
+Waikato                    ," 1,366 ",2017,All Lambs,-37.390202,174.729004
+Bay of Plenty              , 292 ,2017,All Lambs,-37.68927,177.142288
+Gisborne                   ," 1,200 ",2017,All Lambs,-38.662334,178.017654
+Hawke's Bay                 ," 2,103 ",2017,All Lambs,-39.6017,176.5804
+Taranaki                   , 402 ,2017,All Lambs,-39.2711067,174.154795
+Manawat?-Whanganui," 4,536 ",2017,All Lambs,-39.7001275,175.4986325
+Wellington                 ," 1,265 ",2017,All Lambs,-41.2887953,174.7772114
+Tasman                , 227 ,2017,All Lambs,-41.30222105,172.8945319
+Nelson, 12 ,2017,All Lambs,-41.2710849,173.2836756
+Marlborough             , 323 ,2017,All Lambs,-41.47447475,173.8330263
+West Coast                 , 37 ,2017,All Lambs,-42.73894375,171.2438965
+Canterbury                 ," 3,475 ",2017,All Lambs,-43.65992407,171.1450195
+Otago                      ," 4,199 ",2017,All Lambs,-45.47554027,170.0244141
+Southland                  ," 4,164 ",2017,All Lambs,-45.89000816,167.6843262
+Chatham Islands, 44 ,2017,All Lambs,-43.98491011,-176.4624023
+Northland                  ,164,2018,Breeding Ewes,-35.43521,174.16651
 Auckland                   , S ,2018,Breeding Ewes,-36.848461,174.763336
-Waikato                    ," 1,004 ",2018,Breeding Ewes,-37.390202,174.729004
-Bay of Plenty              , 162 ,2018,Breeding Ewes,-37.68927,177.142288
-Gisborne                   , 904 ,2018,Breeding Ewes,-38.662334,178.017654
-Hawke's Bay                 ," 1,579 ",2018,Breeding Ewes,-39.6017,176.5804
-Taranaki                   , 277 ,2018,Breeding Ewes,-39.2711067,174.154795
-Manawat?-Whanganui," 3,251 ",2018,Breeding Ewes,-39.7001275,175.4986325
-Wellington                 , 890 ,2018,Breeding Ewes,-41.2887953,174.7772114
-Tasman                , 154 ,2018,Breeding Ewes,-41.30222105,172.8945319
-Nelson, 18 ,2018,Breeding Ewes,-41.2710849,173.2836756
-Marlborough             , 253 ,2018,Breeding Ewes,-41.47447475,173.8330263
+Waikato                    ,"1,004",2018,Breeding Ewes,-37.390202,174.729004
+Bay of Plenty              ,162,2018,Breeding Ewes,-37.68927,177.142288
+Gisborne                   ,904,2018,Breeding Ewes,-38.662334,178.017654
+Hawke's Bay                 ,"1,579",2018,Breeding Ewes,-39.6017,176.5804
+Taranaki                   ,277,2018,Breeding Ewes,-39.2711067,174.154795
+Manawat?-Whanganui,"3,251",2018,Breeding Ewes,-39.7001275,175.4986325
+Wellington                 ,890,2018,Breeding Ewes,-41.2887953,174.7772114
+Tasman                ,154,2018,Breeding Ewes,-41.30222105,172.8945319
+Nelson,18,2018,Breeding Ewes,-41.2710849,173.2836756
+Marlborough             ,253,2018,Breeding Ewes,-41.47447475,173.8330263
 West Coast                 , S ,2018,Breeding Ewes,-42.73894375,171.2438965
-Canterbury                 ," 2,440 ",2018,Breeding Ewes,-43.65992407,171.1450195
-Otago                      ," 3,364 ",2018,Breeding Ewes,-45.47554027,170.0244141
-Southland                  ," 2,524 ",2018,Breeding Ewes,-45.89000816,167.6843262
+Canterbury                 ,"2,440",2018,Breeding Ewes,-43.65992407,171.1450195
+Otago                      ,"3,364",2018,Breeding Ewes,-45.47554027,170.0244141
+Southland                  ,"2,524",2018,Breeding Ewes,-45.89000816,167.6843262
 Chatham Islands, S ,2018,Breeding Ewes,-43.98491011,-176.4624023
 Northland                  ,21,2018,Ewe Hoggets,-35.43521,174.16651
 Auckland                   , S ,2018,Ewe Hoggets,-36.848461,174.763336
@@ -67,73 +237,73 @@ Canterbury                 ,312,2019,Ewe Hoggets,-43.65992407,171.1450195
 Otago                      ,289,2019,Ewe Hoggets,-45.47554027,170.0244141
 Southland                  ,254,2019,Ewe Hoggets,-45.89000816,167.6843262
 Chatham Islands,S,2019,Ewe Hoggets,-43.98491011,-176.4624023
-Northland                  , 11 ,2018,Lamb (Ewe Hoggets Born),-35.43521,174.16651
-Auckland                   , 16 ,2018,Lamb (Ewe Hoggets Born),-36.848461,174.763336
-Waikato                    , 134 ,2018,Lamb (Ewe Hoggets Born),-37.390202,174.729004
-Bay of Plenty              , 26 ,2018,Lamb (Ewe Hoggets Born),-37.68927,177.142288
-Gisborne                   , 83 ,2018,Lamb (Ewe Hoggets Born),-38.662334,178.017654
-Hawke's Bay                 , 114 ,2018,Lamb (Ewe Hoggets Born),-39.6017,176.5804
-Taranaki                   , 15 ,2018,Lamb (Ewe Hoggets Born),-39.2711067,174.154795
-Manawat?-Whanganui, 274 ,2018,Lamb (Ewe Hoggets Born),-39.7001275,175.4986325
-Wellington                 , 90 ,2018,Lamb (Ewe Hoggets Born),-41.2887953,174.7772114
-Tasman                , 9 ,2018,Lamb (Ewe Hoggets Born),-41.30222105,172.8945319
+Northland                  ,11,2018,Lamb (Ewe Hoggets Born),-35.43521,174.16651
+Auckland                   ,16,2018,Lamb (Ewe Hoggets Born),-36.848461,174.763336
+Waikato                    ,134,2018,Lamb (Ewe Hoggets Born),-37.390202,174.729004
+Bay of Plenty              ,26,2018,Lamb (Ewe Hoggets Born),-37.68927,177.142288
+Gisborne                   ,83,2018,Lamb (Ewe Hoggets Born),-38.662334,178.017654
+Hawke's Bay                 ,114,2018,Lamb (Ewe Hoggets Born),-39.6017,176.5804
+Taranaki                   ,15,2018,Lamb (Ewe Hoggets Born),-39.2711067,174.154795
+Manawat?-Whanganui,274,2018,Lamb (Ewe Hoggets Born),-39.7001275,175.4986325
+Wellington                 ,90,2018,Lamb (Ewe Hoggets Born),-41.2887953,174.7772114
+Tasman                ,9,2018,Lamb (Ewe Hoggets Born),-41.30222105,172.8945319
 Nelson, -   ,2018,Lamb (Ewe Hoggets Born),-41.2710849,173.2836756
-Marlborough             , 17 ,2018,Lamb (Ewe Hoggets Born),-41.47447475,173.8330263
+Marlborough             ,17,2018,Lamb (Ewe Hoggets Born),-41.47447475,173.8330263
 West Coast                 , S ,2018,Lamb (Ewe Hoggets Born),-42.73894375,171.2438965
-Canterbury                 , 202 ,2018,Lamb (Ewe Hoggets Born),-43.65992407,171.1450195
-Otago                      , 164 ,2018,Lamb (Ewe Hoggets Born),-45.47554027,170.0244141
-Southland                  , 161 ,2018,Lamb (Ewe Hoggets Born),-45.89000816,167.6843262
+Canterbury                 ,202,2018,Lamb (Ewe Hoggets Born),-43.65992407,171.1450195
+Otago                      ,164,2018,Lamb (Ewe Hoggets Born),-45.47554027,170.0244141
+Southland                  ,161,2018,Lamb (Ewe Hoggets Born),-45.89000816,167.6843262
 Chatham Islands, S ,2018,Lamb (Ewe Hoggets Born),-43.98491011,-176.4624023
-Northland                  , 236 ,2018,Lamb (Ewe Born),-35.43521,174.16651
+Northland                  ,236,2018,Lamb (Ewe Born),-35.43521,174.16651
 Auckland                   , S ,2018,Lamb (Ewe Born),-36.848461,174.763336
-Waikato                    ," 1,317 ",2018,Lamb (Ewe Born),-37.390202,174.729004
-Bay of Plenty              , 207 ,2018,Lamb (Ewe Born),-37.68927,177.142288
-Gisborne                   ," 1,224 ",2018,Lamb (Ewe Born),-38.662334,178.017654
-Hawke's Bay                 ," 2,151 ",2018,Lamb (Ewe Born),-39.6017,176.5804
-Taranaki                   , 359 ,2018,Lamb (Ewe Born),-39.2711067,174.154795
-Manawat?-Whanganui," 4,519 ",2018,Lamb (Ewe Born),-39.7001275,175.4986325
-Wellington                 ," 1,262 ",2018,Lamb (Ewe Born),-41.2887953,174.7772114
-Tasman                , 214 ,2018,Lamb (Ewe Born),-41.30222105,172.8945319
-Nelson, 21 ,2018,Lamb (Ewe Born),-41.2710849,173.2836756
-Marlborough             , 308 ,2018,Lamb (Ewe Born),-41.47447475,173.8330263
+Waikato                    ,"1,317",2018,Lamb (Ewe Born),-37.390202,174.729004
+Bay of Plenty              ,207,2018,Lamb (Ewe Born),-37.68927,177.142288
+Gisborne                   ,"1,224",2018,Lamb (Ewe Born),-38.662334,178.017654
+Hawke's Bay                 ,"2,151",2018,Lamb (Ewe Born),-39.6017,176.5804
+Taranaki                   ,359,2018,Lamb (Ewe Born),-39.2711067,174.154795
+Manawat?-Whanganui,"4,519",2018,Lamb (Ewe Born),-39.7001275,175.4986325
+Wellington                 ,"1,262",2018,Lamb (Ewe Born),-41.2887953,174.7772114
+Tasman                ,214,2018,Lamb (Ewe Born),-41.30222105,172.8945319
+Nelson,21,2018,Lamb (Ewe Born),-41.2710849,173.2836756
+Marlborough             ,308,2018,Lamb (Ewe Born),-41.47447475,173.8330263
 West Coast                 , S ,2018,Lamb (Ewe Born),-42.73894375,171.2438965
-Canterbury                 ," 3,079 ",2018,Lamb (Ewe Born),-43.65992407,171.1450195
-Otago                      ," 4,516 ",2018,Lamb (Ewe Born),-45.47554027,170.0244141
-Southland                  ," 3,754 ",2018,Lamb (Ewe Born),-45.89000816,167.6843262
+Canterbury                 ,"3,079",2018,Lamb (Ewe Born),-43.65992407,171.1450195
+Otago                      ,"4,516",2018,Lamb (Ewe Born),-45.47554027,170.0244141
+Southland                  ,"3,754",2018,Lamb (Ewe Born),-45.89000816,167.6843262
 Chatham Islands, S ,2018,Lamb (Ewe Born),-43.98491011,-176.4624023
-Northland                  , 14 ,2019,Lamb (Ewe Hoggets Born),-35.43521,174.16651
+Northland                  ,14,2019,Lamb (Ewe Hoggets Born),-35.43521,174.16651
 Auckland                   , S ,2019,Lamb (Ewe Hoggets Born),-36.848461,174.763336
-Waikato                    , 90 ,2019,Lamb (Ewe Hoggets Born),-37.390202,174.729004
-Bay of Plenty              , 14 ,2019,Lamb (Ewe Hoggets Born),-37.68927,177.142288
-Gisborne                   , 74 ,2019,Lamb (Ewe Hoggets Born),-38.662334,178.017654
-Hawke's Bay                 , 134 ,2019,Lamb (Ewe Hoggets Born),-39.6017,176.5804
-Taranaki                   , 16 ,2019,Lamb (Ewe Hoggets Born),-39.2711067,174.154795
-Manawat?-Whanganui, 250 ,2019,Lamb (Ewe Hoggets Born),-39.7001275,175.4986325
-Wellington                 , 74 ,2019,Lamb (Ewe Hoggets Born),-41.2887953,174.7772114
+Waikato                    ,90,2019,Lamb (Ewe Hoggets Born),-37.390202,174.729004
+Bay of Plenty              ,14,2019,Lamb (Ewe Hoggets Born),-37.68927,177.142288
+Gisborne                   ,74,2019,Lamb (Ewe Hoggets Born),-38.662334,178.017654
+Hawke's Bay                 ,134,2019,Lamb (Ewe Hoggets Born),-39.6017,176.5804
+Taranaki                   ,16,2019,Lamb (Ewe Hoggets Born),-39.2711067,174.154795
+Manawat?-Whanganui,250,2019,Lamb (Ewe Hoggets Born),-39.7001275,175.4986325
+Wellington                 ,74,2019,Lamb (Ewe Hoggets Born),-41.2887953,174.7772114
 Tasman                , S ,2019,Lamb (Ewe Hoggets Born),-41.30222105,172.8945319
 Nelson, S ,2019,Lamb (Ewe Hoggets Born),-41.2710849,173.2836756
 Marlborough             , S ,2019,Lamb (Ewe Hoggets Born),-41.47447475,173.8330263
-West Coast                 , 5 ,2019,Lamb (Ewe Hoggets Born),-42.73894375,171.2438965
-Canterbury                 , 203 ,2019,Lamb (Ewe Hoggets Born),-43.65992407,171.1450195
-Otago                      , 146 ,2019,Lamb (Ewe Hoggets Born),-45.47554027,170.0244141
-Southland                  , 115 ,2019,Lamb (Ewe Hoggets Born),-45.89000816,167.6843262
+West Coast                 ,5,2019,Lamb (Ewe Hoggets Born),-42.73894375,171.2438965
+Canterbury                 ,203,2019,Lamb (Ewe Hoggets Born),-43.65992407,171.1450195
+Otago                      ,146,2019,Lamb (Ewe Hoggets Born),-45.47554027,170.0244141
+Southland                  ,115,2019,Lamb (Ewe Hoggets Born),-45.89000816,167.6843262
 Chatham Islands, S ,2019,Lamb (Ewe Hoggets Born),-43.98491011,-176.4624023
-Northland                  , 217 ,2019,Lamb (Ewe Born),-35.43521,174.16651
-Auckland                   , 137 ,2019,Lamb (Ewe Born),-36.848461,174.763336
-Waikato                    ," 1,377 ",2019,Lamb (Ewe Born),-37.390202,174.729004
-Bay of Plenty              , 209 ,2019,Lamb (Ewe Born),-37.68927,177.142288
-Gisborne                   ," 1,142 ",2019,Lamb (Ewe Born),-38.662334,178.017654
-Hawke's Bay                 ," 1,941 ",2019,Lamb (Ewe Born),-39.6017,176.5804
-Taranaki                   , 377 ,2019,Lamb (Ewe Born),-39.2711067,174.154795
-Manawat?-Whanganui," 4,274 ",2019,Lamb (Ewe Born),-39.7001275,175.4986325
-Wellington                 ," 1,179 ",2019,Lamb (Ewe Born),-41.2887953,174.7772114
-Tasman                , 195 ,2019,Lamb (Ewe Born),-41.30222105,172.8945319
-Nelson, 8 ,2019,Lamb (Ewe Born),-41.2710849,173.2836756
-Marlborough             , 341 ,2019,Lamb (Ewe Born),-41.47447475,173.8330263
-West Coast                 , 26 ,2019,Lamb (Ewe Born),-42.73894375,171.2438965
-Canterbury                 ," 3,293 ",2019,Lamb (Ewe Born),-43.65992407,171.1450195
-Otago                      ," 4,347 ",2019,Lamb (Ewe Born),-45.47554027,170.0244141
-Southland                  ," 3,519 ",2019,Lamb (Ewe Born),-45.89000816,167.6843262
+Northland                  ,217,2019,Lamb (Ewe Born),-35.43521,174.16651
+Auckland                   ,137,2019,Lamb (Ewe Born),-36.848461,174.763336
+Waikato                    ,"1,377",2019,Lamb (Ewe Born),-37.390202,174.729004
+Bay of Plenty              ,209,2019,Lamb (Ewe Born),-37.68927,177.142288
+Gisborne                   ,"1,142",2019,Lamb (Ewe Born),-38.662334,178.017654
+Hawke's Bay                 ,"1,941",2019,Lamb (Ewe Born),-39.6017,176.5804
+Taranaki                   ,377,2019,Lamb (Ewe Born),-39.2711067,174.154795
+Manawat?-Whanganui,"4,274",2019,Lamb (Ewe Born),-39.7001275,175.4986325
+Wellington                 ,"1,179",2019,Lamb (Ewe Born),-41.2887953,174.7772114
+Tasman                ,195,2019,Lamb (Ewe Born),-41.30222105,172.8945319
+Nelson,8,2019,Lamb (Ewe Born),-41.2710849,173.2836756
+Marlborough             ,341,2019,Lamb (Ewe Born),-41.47447475,173.8330263
+West Coast                 ,26,2019,Lamb (Ewe Born),-42.73894375,171.2438965
+Canterbury                 ,"3,293",2019,Lamb (Ewe Born),-43.65992407,171.1450195
+Otago                      ,"4,347",2019,Lamb (Ewe Born),-45.47554027,170.0244141
+Southland                  ,"3,519",2019,Lamb (Ewe Born),-45.89000816,167.6843262
 Chatham Islands, S ,2019,Lamb (Ewe Born),-43.98491011,-176.4624023
 Northland                  ,195,2017,Breeding Ewes,-35.43521,174.16651
 Auckland                   ,163,2017,Breeding Ewes,-36.848461,174.763336
@@ -169,40 +339,40 @@ Canterbury                 ,282,2017,Ewe Hoggets,-43.65992407,171.1450195
 Otago                      ,254,2017,Ewe Hoggets,-45.47554027,170.0244141
 Southland                  ,290,2017,Ewe Hoggets,-45.89000816,167.6843262
 Chatham Islands,2,2017,Ewe Hoggets,-43.98491011,-176.4624023
-Northland                  , 16 ,2017,Lamb (Ewe Hoggets Born),-35.43521,174.16651
-Auckland                   , 9 ,2017,Lamb (Ewe Hoggets Born),-36.848461,174.763336
-Waikato                    , 87 ,2017,Lamb (Ewe Hoggets Born),-37.390202,174.729004
-Bay of Plenty              , 38 ,2017,Lamb (Ewe Hoggets Born),-37.68927,177.142288
-Gisborne                   , 74 ,2017,Lamb (Ewe Hoggets Born),-38.662334,178.017654
-Hawke's Bay                 , 110 ,2017,Lamb (Ewe Hoggets Born),-39.6017,176.5804
-Taranaki                   , 15 ,2017,Lamb (Ewe Hoggets Born),-39.2711067,174.154795
-Manawat?-Whanganui, 223 ,2017,Lamb (Ewe Hoggets Born),-39.7001275,175.4986325
-Wellington                 , 75 ,2017,Lamb (Ewe Hoggets Born),-41.2887953,174.7772114
-Tasman                , 9 ,2017,Lamb (Ewe Hoggets Born),-41.30222105,172.8945319
+Northland                  ,16,2017,Lamb (Ewe Hoggets Born),-35.43521,174.16651
+Auckland                   ,9,2017,Lamb (Ewe Hoggets Born),-36.848461,174.763336
+Waikato                    ,87,2017,Lamb (Ewe Hoggets Born),-37.390202,174.729004
+Bay of Plenty              ,38,2017,Lamb (Ewe Hoggets Born),-37.68927,177.142288
+Gisborne                   ,74,2017,Lamb (Ewe Hoggets Born),-38.662334,178.017654
+Hawke's Bay                 ,110,2017,Lamb (Ewe Hoggets Born),-39.6017,176.5804
+Taranaki                   ,15,2017,Lamb (Ewe Hoggets Born),-39.2711067,174.154795
+Manawat?-Whanganui,223,2017,Lamb (Ewe Hoggets Born),-39.7001275,175.4986325
+Wellington                 ,75,2017,Lamb (Ewe Hoggets Born),-41.2887953,174.7772114
+Tasman                ,9,2017,Lamb (Ewe Hoggets Born),-41.30222105,172.8945319
 Nelson, S ,2017,Lamb (Ewe Hoggets Born),-41.2710849,173.2836756
-Marlborough             , 12 ,2017,Lamb (Ewe Hoggets Born),-41.47447475,173.8330263
-West Coast                 , 4 ,2017,Lamb (Ewe Hoggets Born),-42.73894375,171.2438965
-Canterbury                 , 165 ,2017,Lamb (Ewe Hoggets Born),-43.65992407,171.1450195
-Otago                      , 141 ,2017,Lamb (Ewe Hoggets Born),-45.47554027,170.0244141
-Southland                  , 189 ,2017,Lamb (Ewe Hoggets Born),-45.89000816,167.6843262
-Chatham Islands, 1 ,2017,Lamb (Ewe Hoggets Born),-43.98491011,-176.4624023
-Northland                  , 261 ,2017,Lamb (Ewe Born),-35.43521,174.16651
-Auckland                   , 195 ,2017,Lamb (Ewe Born),-36.848461,174.763336
-Waikato                    ," 1,279 ",2017,Lamb (Ewe Born),-37.390202,174.729004
-Bay of Plenty              , 254 ,2017,Lamb (Ewe Born),-37.68927,177.142288
-Gisborne                   ," 1,125 ",2017,Lamb (Ewe Born),-38.662334,178.017654
-Hawke's Bay                 ," 1,993 ",2017,Lamb (Ewe Born),-39.6017,176.5804
-Taranaki                   , 387 ,2017,Lamb (Ewe Born),-39.2711067,174.154795
-Manawat?-Whanganui," 4,313 ",2017,Lamb (Ewe Born),-39.7001275,175.4986325
-Wellington                 ," 1,189 ",2017,Lamb (Ewe Born),-41.2887953,174.7772114
-Tasman                , 218 ,2017,Lamb (Ewe Born),-41.30222105,172.8945319
-Nelson, 12 ,2017,Lamb (Ewe Born),-41.2710849,173.2836756
-Marlborough             , 311 ,2017,Lamb (Ewe Born),-41.47447475,173.8330263
-West Coast                 , 33 ,2017,Lamb (Ewe Born),-42.73894375,171.2438965
-Canterbury                 ," 3,310 ",2017,Lamb (Ewe Born),-43.65992407,171.1450195
-Otago                      ," 4,057 ",2017,Lamb (Ewe Born),-45.47554027,170.0244141
-Southland                  ," 3,975 ",2017,Lamb (Ewe Born),-45.89000816,167.6843262
-Chatham Islands, 43 ,2017,Lamb (Ewe Born),-43.98491011,-176.4624023
+Marlborough             ,12,2017,Lamb (Ewe Hoggets Born),-41.47447475,173.8330263
+West Coast                 ,4,2017,Lamb (Ewe Hoggets Born),-42.73894375,171.2438965
+Canterbury                 ,165,2017,Lamb (Ewe Hoggets Born),-43.65992407,171.1450195
+Otago                      ,141,2017,Lamb (Ewe Hoggets Born),-45.47554027,170.0244141
+Southland                  ,189,2017,Lamb (Ewe Hoggets Born),-45.89000816,167.6843262
+Chatham Islands,1,2017,Lamb (Ewe Hoggets Born),-43.98491011,-176.4624023
+Northland                  ,261,2017,Lamb (Ewe Born),-35.43521,174.16651
+Auckland                   ,195,2017,Lamb (Ewe Born),-36.848461,174.763336
+Waikato                    ,"1,279",2017,Lamb (Ewe Born),-37.390202,174.729004
+Bay of Plenty              ,254,2017,Lamb (Ewe Born),-37.68927,177.142288
+Gisborne                   ,"1,125",2017,Lamb (Ewe Born),-38.662334,178.017654
+Hawke's Bay                 ,"1,993",2017,Lamb (Ewe Born),-39.6017,176.5804
+Taranaki                   ,387,2017,Lamb (Ewe Born),-39.2711067,174.154795
+Manawat?-Whanganui,"4,313",2017,Lamb (Ewe Born),-39.7001275,175.4986325
+Wellington                 ,"1,189",2017,Lamb (Ewe Born),-41.2887953,174.7772114
+Tasman                ,218,2017,Lamb (Ewe Born),-41.30222105,172.8945319
+Nelson,12,2017,Lamb (Ewe Born),-41.2710849,173.2836756
+Marlborough             ,311,2017,Lamb (Ewe Born),-41.47447475,173.8330263
+West Coast                 ,33,2017,Lamb (Ewe Born),-42.73894375,171.2438965
+Canterbury                 ,"3,310",2017,Lamb (Ewe Born),-43.65992407,171.1450195
+Otago                      ,"4,057",2017,Lamb (Ewe Born),-45.47554027,170.0244141
+Southland                  ,"3,975",2017,Lamb (Ewe Born),-45.89000816,167.6843262
+Chatham Islands,43,2017,Lamb (Ewe Born),-43.98491011,-176.4624023
 Northland                  ,217,2016,Breeding Ewes,-35.43521,174.16651
 Auckland                   ,124,2016,Breeding Ewes,-36.848461,174.763336
 Waikato                    ,"1,140",2016,Breeding Ewes,-37.390202,174.729004
@@ -220,23 +390,23 @@ Canterbury                 ,"2,683",2016,Breeding Ewes,-43.65992407,171.1450195
 Otago                      ,"3,320",2016,Breeding Ewes,-45.47554027,170.0244141
 Southland                  ,"2,745",2016,Breeding Ewes,-45.89000816,167.6843262
 Chatham Islands,30,2016,Breeding Ewes,-43.98491011,-176.4624023
-Northland                  , 29 ,2016,Ewe Hoggets,-35.43521,174.16651
-Auckland                   , 12 ,2016,Ewe Hoggets,-36.848461,174.763336
-Waikato                    , 133 ,2016,Ewe Hoggets,-37.390202,174.729004
-Bay of Plenty              , 32 ,2016,Ewe Hoggets,-37.68927,177.142288
-Gisborne                   , 102 ,2016,Ewe Hoggets,-38.662334,178.017654
-Hawke's Bay                 , 142 ,2016,Ewe Hoggets,-39.6017,176.5804
-Taranaki                   , 19 ,2016,Ewe Hoggets,-39.2711067,174.154795
-Manawatu-Wanganui, 358 ,2016,Ewe Hoggets,-39.7001275,175.4986325
-Wellington                 , 99 ,2016,Ewe Hoggets,-41.2887953,174.7772114
-Tasman                , 13 ,2016,Ewe Hoggets,-41.30222105,172.8945319
-Nelson,0 ,2016,Ewe Hoggets,-41.2710849,173.2836756
-Marlborough             , 9 ,2016,Ewe Hoggets,-41.47447475,173.8330263
-West Coast                 , 2 ,2016,Ewe Hoggets,-42.73894375,171.2438965
-Canterbury                 , 268 ,2016,Ewe Hoggets,-43.65992407,171.1450195
-Otago                      , 214 ,2016,Ewe Hoggets,-45.47554027,170.0244141
-Southland                  , 260 ,2016,Ewe Hoggets,-45.89000816,167.6843262
-Chatham Islands, 3 ,2016,Ewe Hoggets,-43.98491011,-176.4624023
+Northland                  ,29,2016,Ewe Hoggets,-35.43521,174.16651
+Auckland                   ,12,2016,Ewe Hoggets,-36.848461,174.763336
+Waikato                    ,133,2016,Ewe Hoggets,-37.390202,174.729004
+Bay of Plenty              ,32,2016,Ewe Hoggets,-37.68927,177.142288
+Gisborne                   ,102,2016,Ewe Hoggets,-38.662334,178.017654
+Hawke's Bay                 ,142,2016,Ewe Hoggets,-39.6017,176.5804
+Taranaki                   ,19,2016,Ewe Hoggets,-39.2711067,174.154795
+Manawatu-Wanganui,358,2016,Ewe Hoggets,-39.7001275,175.4986325
+Wellington                 ,99,2016,Ewe Hoggets,-41.2887953,174.7772114
+Tasman                ,13,2016,Ewe Hoggets,-41.30222105,172.8945319
+Nelson,0,2016,Ewe Hoggets,-41.2710849,173.2836756
+Marlborough             ,9,2016,Ewe Hoggets,-41.47447475,173.8330263
+West Coast                 ,2,2016,Ewe Hoggets,-42.73894375,171.2438965
+Canterbury                 ,268,2016,Ewe Hoggets,-43.65992407,171.1450195
+Otago                      ,214,2016,Ewe Hoggets,-45.47554027,170.0244141
+Southland                  ,260,2016,Ewe Hoggets,-45.89000816,167.6843262
+Chatham Islands,3,2016,Ewe Hoggets,-43.98491011,-176.4624023
 Northland                  ,15,2016,Lamb (Ewe Hoggets Born),-35.43521,174.16651
 Auckland                   ,6,2016,Lamb (Ewe Hoggets Born),-36.848461,174.763336
 Waikato                    ,67,2016,Lamb (Ewe Hoggets Born),-37.390202,174.729004
