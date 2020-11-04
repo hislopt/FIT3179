@@ -148,7 +148,7 @@
     {
       "name": "color",
       "type": "ordinal",
-      "domain": ["lamb", "mutton", "fine wool", "medium wool", "strong wool"],
+      "domain": ["Lamb", "Mutton", "Fine Wool", "Medium Wool", "Strong Wool"],
       "range": ["#b2e2e2", "#2ca25f", "#b3cde3", "#8c96c6", "#810f7c"]
     }
   ],
