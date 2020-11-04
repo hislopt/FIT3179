@@ -1,9 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "autosize": {"type": "fit-x", "contains": "padding"},
   "background": "white",
   "padding": 5,
-  "height": 200,
+  "width": 600,
+  "height": 400,
   "style": "cell",
   "data": [
     {
@@ -47,16 +47,6 @@
     }
   ],
   "signals": [
-    {
-      "name": "width",
-      "init": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
-      "on": [
-        {
-          "update": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
-          "events": "window:resize"
-        }
-      ]
-    },
     {
       "name": "Year_Selection",
       "value": 2015,
