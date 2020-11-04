@@ -1,0 +1,110 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "autosize": {"type": "fit-x", "contains": "padding"},
+  "background": "white",
+  "padding": 5,
+  "height": 200,
+  "style": "cell",
+  "data": [
+    {
+      "name": "source_1",
+      "url": "https://raw.githubusercontent.com/hislopt/FIT3179/main/W9hmwk/data/sheepdensity_persqkm.csv",
+      "format": {"type": "csv", "delimiter": ","}
+    },
+    {
+      "name": "source_0",
+      "url": "https://raw.githubusercontent.com/hislopt/FIT3179/main/assignment2/json/ne_50m_admin_0_countries.topojson",
+      "format": {
+        "type": "topojson",
+        "feature": "ne_50m_admin_0_countries",
+        "parse": {}
+      },
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "datum[\"properties\"] && datum[\"properties\"][\"NAME\"]",
+          "as": "properties.NAME"
+        },
+        {
+          "type": "lookup",
+          "from": "source_1",
+          "key": "Country",
+          "fields": ["properties.NAME"],
+          "values": ["Value", "Land sqkm", "Sheep per SQKM"]
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"Sheep per SQKM\"]) && isFinite(+datum[\"Sheep per SQKM\"])"
+        }
+      ]
+    }
+  ],
+  "projections": [
+    {
+      "name": "projection",
+      "size": {"signal": "[width, height]"},
+      "fit": {"signal": "data('source_0')"},
+      "type": "equalEarth",
+      "rotate": [-15, 0, 0]
+    }
+  ],
+  "signals": [
+    {
+      "name": "width",
+      "init": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
+      "on": [
+        {
+          "update": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
+          "events": "window:resize"
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "name": "layer_0_marks",
+      "type": "shape",
+      "style": ["geoshape"],
+      "from": {"data": "source_0"},
+      "encode": {
+        "update": {
+          "fill": {"scale": "color", "field": "Sheep per SQKM"},
+          "tooltip": {
+            "signal": "{\"Country\": isValid(datum[\"properties.NAME\"]) ? datum[\"properties.NAME\"] : \"\"+datum[\"properties.NAME\"], \"Number of Sheep\": format(datum[\"Value\"], \"\"), \"Total Land (SQKM)\": format(datum[\"Land sqkm\"], \"\"), \"Total Sheep per Square Kilometre\": format(datum[\"Sheep per SQKM\"], \".2f\")}"
+          },
+          "ariaRoleDescription": {"value": "geoshape"},
+          "description": {
+            "signal": "\"Sheep per SQKM: \" + (format(datum[\"Sheep per SQKM\"], \"\")) + \"; Country: \" + (isValid(datum[\"properties.NAME\"]) ? datum[\"properties.NAME\"] : \"\"+datum[\"properties.NAME\"]) + \"; Number of Sheep: \" + (format(datum[\"Value\"], \"\")) + \"; Total Land (SQKM): \" + (format(datum[\"Land sqkm\"], \"\")) + \"; Total Sheep per Square Kilometre: \" + (format(datum[\"Sheep per SQKM\"], \".2f\"))"
+          }
+        }
+      },
+      "transform": [{"type": "geoshape", "projection": "projection"}]
+    }
+  ],
+  "scales": [
+    {
+      "name": "color",
+      "type": "linear",
+      "domain": {"data": "source_0", "field": "Sheep per SQKM"},
+      "range": ["#b2e2e2", "#66c2a4", "#2ca25f", "#006d2c"],
+      "interpolate": "hcl",
+      "zero": false
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "gradientLength": {"signal": "clamp(height, 64, 200)"},
+      "title": "Sheep per SQKM"
+    }
+  ],
+  "config": {
+    "style": {
+      "guide-label": {"font": "monospace"},
+      "guide-title": {"font": "monospace"},
+      "group-title": {"font": "monospace"},
+      "group-subtitle": {"font": "monospace"},
+      "text": {"font": "monospace"}
+    }
+  }
+}

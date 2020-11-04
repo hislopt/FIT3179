@@ -1,0 +1,217 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "autosize": {"type": "fit-x", "contains": "padding"},
+  "background": "white",
+  "padding": 5,
+  "height": 200,
+  "style": "cell",
+  "data": [
+    {
+      "name": "source_0",
+      "url": "https://raw.githubusercontent.com/hislopt/FIT3179/main/assignment2/data/sheepproductpricetrends.csv",
+      "format": {"type": "csv", "delimiter": ","},
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "Product_selection == null || datum.product_type == Product_selection"
+        }
+      ]
+    },
+    {
+      "name": "data_0",
+      "source": "source_0",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"nzd_per_head\"]) && isFinite(+datum[\"nzd_per_head\"])"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "width",
+      "init": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
+      "on": [
+        {
+          "update": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
+          "events": "window:resize"
+        }
+      ]
+    },
+    {
+      "name": "Product_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "lamb",
+          "mutton",
+          "fine wool",
+          "medium wool",
+          "strong wool"
+        ],
+        "labels": [
+          "Show All",
+          "Lamb",
+          "Mutton",
+          "Fine Wool",
+          "Medium Wool",
+          "Strong Wool"
+        ],
+        "name": "Product Selection: "
+      }
+    }
+  ],
+  "marks": [
+    {
+      "name": "layer_0_pathgroup",
+      "type": "group",
+      "from": {
+        "facet": {
+          "name": "faceted_path_layer_0_main",
+          "data": "source_0",
+          "groupby": ["product_type"]
+        }
+      },
+      "encode": {
+        "update": {
+          "width": {"field": {"group": "width"}},
+          "height": {"field": {"group": "height"}}
+        }
+      },
+      "marks": [
+        {
+          "name": "layer_0_marks",
+          "type": "line",
+          "style": ["line"],
+          "sort": {"field": "datum[\"year\"]"},
+          "from": {"data": "faceted_path_layer_0_main"},
+          "encode": {
+            "update": {
+              "stroke": {"scale": "color", "field": "product_type"},
+              "tooltip": {
+                "signal": "{\"Product Type\": isValid(datum[\"product_type\"]) ? datum[\"product_type\"] : \"\"+datum[\"product_type\"], \"NZD per Head\": format(datum[\"nzd_per_head\"], \"\")}"
+              },
+              "description": {
+                "signal": "\"Year: \" + (isValid(datum[\"year\"]) ? datum[\"year\"] : \"\"+datum[\"year\"]) + \"; NZD per Head: \" + (format(datum[\"nzd_per_head\"], \"\")) + \"; Product Type: \" + (isValid(datum[\"product_type\"]) ? datum[\"product_type\"] : \"\"+datum[\"product_type\"])"
+              },
+              "x": {"scale": "x", "field": "year"},
+              "y": {"scale": "y", "field": "nzd_per_head"},
+              "defined": {
+                "signal": "isValid(datum[\"nzd_per_head\"]) && isFinite(+datum[\"nzd_per_head\"])"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "layer_1_marks",
+      "type": "symbol",
+      "style": ["point"],
+      "from": {"data": "data_0"},
+      "encode": {
+        "update": {
+          "opacity": {"value": 1},
+          "fill": {"scale": "color", "field": "product_type"},
+          "tooltip": {
+            "signal": "{\"Product Type\": isValid(datum[\"product_type\"]) ? datum[\"product_type\"] : \"\"+datum[\"product_type\"], \"NZD per Head\": format(datum[\"nzd_per_head\"], \"\")}"
+          },
+          "ariaRoleDescription": {"value": "point"},
+          "description": {
+            "signal": "\"Year: \" + (isValid(datum[\"year\"]) ? datum[\"year\"] : \"\"+datum[\"year\"]) + \"; NZD per Head: \" + (format(datum[\"nzd_per_head\"], \"\")) + \"; Product Type: \" + (isValid(datum[\"product_type\"]) ? datum[\"product_type\"] : \"\"+datum[\"product_type\"])"
+          },
+          "x": {"scale": "x", "field": "year"},
+          "y": {"scale": "y", "field": "nzd_per_head"}
+        }
+      }
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "point",
+      "domain": {
+        "fields": [
+          {"data": "source_0", "field": "year"},
+          {"data": "data_0", "field": "year"}
+        ],
+        "sort": true
+      },
+      "range": [0, {"signal": "width"}],
+      "padding": 0.5
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "domain": {
+        "fields": [
+          {"data": "source_0", "field": "nzd_per_head"},
+          {"data": "data_0", "field": "nzd_per_head"}
+        ]
+      },
+      "range": [{"signal": "height"}, 0],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": ["lamb", "mutton", "fine wool", "medium wool", "strong wool"],
+      "range": ["#b2e2e2", "#2ca25f", "#b3cde3", "#8c96c6", "#810f7c"]
+    }
+  ],
+  "axes": [
+    {
+      "scale": "y",
+      "orient": "left",
+      "gridScale": "x",
+      "grid": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "domain": false,
+      "labels": false,
+      "aria": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": false,
+      "title": "Year",
+      "labelAngle": 0,
+      "labelBaseline": "top",
+      "zindex": 0
+    },
+    {
+      "scale": "y",
+      "orient": "left",
+      "grid": false,
+      "title": "NZD per Head",
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "zindex": 0
+    }
+  ],
+  "legends": [
+    {
+      "title": "Product Type",
+      "stroke": "color",
+      "symbolType": "circle",
+      "fill": "color",
+      "encode": {"symbols": {"update": {"opacity": {"value": 1}}}}
+    }
+  ],
+  "config": {
+    "style": {
+      "guide-label": {"font": "monospace"},
+      "guide-title": {"font": "monospace"},
+      "group-title": {"font": "monospace"},
+      "group-subtitle": {"font": "monospace"},
+      "text": {"font": "monospace"}
+    }
+  }
+}
