@@ -21,17 +21,8 @@
     }
   ],
   "signals": [
-    {
-      "name": "child_width",
-      "init": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
-      "on": [
-        {
-          "update": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
-          "events": "window:resize"
-        }
-      ]
-    },
-    {"name": "child_height", "value": 200}
+    {"name": "child_width", "value": 80},
+    {"name": "child_height", "value": 350}
   ],
   "layout": {
     "padding": 20,
