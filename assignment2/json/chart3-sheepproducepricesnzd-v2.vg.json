@@ -35,11 +35,11 @@
         "input": "select",
         "options": [
           null,
-          "lamb",
-          "mutton",
-          "fine wool",
-          "medium wool",
-          "strong wool"
+          "Lamb",
+          "Mutton",
+          "Fine Wool",
+          "Medium Wool",
+          "Strong Wool"
         ],
         "labels": [
           "Show All",
