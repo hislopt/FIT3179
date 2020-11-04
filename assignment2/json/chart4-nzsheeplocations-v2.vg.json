@@ -3,7 +3,7 @@
   "background": "white",
   "padding": 5,
   "width": 600,
-  "height": 400,
+  "height": 500,
   "style": "cell",
   "data": [
     {
@@ -150,12 +150,13 @@
     }
   ],
   "config": {
+    "legend": {"labelFontSize": 12, "titleFontSize": 14},
     "style": {
-      "guide-label": {"font": "monospace"},
-      "guide-title": {"font": "monospace"},
-      "group-title": {"font": "monospace"},
-      "group-subtitle": {"font": "monospace"},
-      "text": {"font": "monospace"}
+      "guide-label": {"font": "Helvetica"},
+      "guide-title": {"font": "Helvetica"},
+      "group-title": {"font": "Helvetica"},
+      "group-subtitle": {"font": "Helvetica"},
+      "text": {"font": "Helvetica"}
     }
   }
 }
