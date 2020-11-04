@@ -1,4 +1,4 @@
-year-end,year,product type,nzd per head,price type
+year_end,year,product_type,nzd_per_head,price_type
 30/09/2014,2014,lamb,100,historical
 30/09/2015,2015,lamb,94,historical
 30/09/2016,2016,lamb,93,historical
