@@ -1,9 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "autosize": {"type": "fit-x", "contains": "padding"},
   "background": "white",
   "padding": 5,
-  "height": 200,
+  "width": 700,
+  "height": 500,
   "style": "cell",
   "data": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "name": "source_0",
-      "url": "https://raw.githubusercontent.com/hislopt/FIT3179/main/assignment2/json/ne_50m_admin_0_countries.topojson",
+      "url": "https://raw.githubusercontent.com/hislopt/FIT3179/main/W9hmwk/json/ne_50m_admin_0_countries.topojson",
       "format": {
         "type": "topojson",
         "feature": "ne_50m_admin_0_countries",
@@ -46,18 +46,6 @@
       "fit": {"signal": "data('source_0')"},
       "type": "equalEarth",
       "rotate": [-15, 0, 0]
-    }
-  ],
-  "signals": [
-    {
-      "name": "width",
-      "init": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
-      "on": [
-        {
-          "update": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
-          "events": "window:resize"
-        }
-      ]
     }
   ],
   "marks": [
