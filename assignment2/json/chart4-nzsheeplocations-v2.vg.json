@@ -3,7 +3,7 @@
   "background": "white",
   "padding": 5,
   "width": 600,
-  "height": 500,
+  "height": 600,
   "style": "cell",
   "data": [
     {
@@ -43,7 +43,7 @@
       "translate": {"signal": "[width / 2, height / 2]"},
       "type": "azimuthalEqualArea",
       "rotate": [-173, 41, 0],
-      "scale": 1650
+      "scale": 2100
     }
   ],
   "signals": [
