@@ -21,8 +21,8 @@
     }
   ],
   "signals": [
-    {"name": "child_width", "value": 80},
-    {"name": "child_height", "value": 350}
+    {"name": "child_width", "value": 100},
+    {"name": "child_height", "value": 500}
   ],
   "layout": {
     "padding": 20,
